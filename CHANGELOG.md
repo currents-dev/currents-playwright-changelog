@@ -1,18 +1,50 @@
 # Changelog
 
-## [1.4.6](https://github.com/currents-dev/currents-playwright/compare/v1.4.5...v1.4.6) (2024-07-26)
+## [1.5.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.2...v1.5.3) (2024-08-08)
 
 
 ### Bug Fixes
 
-* show correct count of failed flaky tests ([2f26bd2](https://github.com/currents-dev/currents-playwright/commit/2f26bd2036ec98158e1a84ed0d63b40c283a525a))
+* added after release script ([8f473fc](https://github.com/currents-dev/currents-playwright-changelog/commit/8f473fc1cc013738f07189c57c9b29e5dbe5db05))
+* added hooks to release-it block in reporter ([f36eafb](https://github.com/currents-dev/currents-playwright-changelog/commit/f36eafb5640baeeb969401b2e9f5ba66e0a2c6bf))
+* added script to update changelog ([a08dc02](https://github.com/currents-dev/currents-playwright-changelog/commit/a08dc02eea836db0ebc4d037c63724ae3e9d929b))
+* addressed feedback ([1272a5d](https://github.com/currents-dev/currents-playwright-changelog/commit/1272a5d4aae95134ddaf6e4ade726afc2952ca51))
+* run changelog update on release and publish scripts ([f1ef130](https://github.com/currents-dev/currents-playwright-changelog/commit/f1ef13069ea48916705189ff6d7fb9481c552436))
+
+## [1.5.2](https://github.com/currents-dev/currents-playwright/compare/v1.5.1...v1.5.2) (2024-08-01)
+
+### Bug Fixes
+
+- fix: retry failed request if path is /runs/v1 ([#177](https://github.com/currents-dev/currents-playwright/pull/177)) ([c6b334bd](https://github.com/currents-dev/currents-playwright/commit/c6b334bdbdc9ee156ae2b953ad599ea18e5d4cf4))
+- fix: include apigw-requestid in error messages ([#177](https://github.com/currents-dev/currents-playwright/pull/177)) ([c6b334bd](https://github.com/currents-dev/currents-playwright/commit/c6b334bdbdc9ee156ae2b953ad599ea18e5d4cf4))
+
+## [1.5.1](https://github.com/currents-dev/currents-playwright/compare/v1.5.0...v1.5.1) (2024-08-01)
+
+### Bug Fixes
+
+- send annotions with update request ([#178](https://github.com/currents-dev/currents-playwright/issues/178)) ([96ef74a](https://github.com/currents-dev/currents-playwright/commit/96ef74a3cce9dafadfdb69d30552250dadea74b1))
+
+# [1.5.0](https://github.com/currents-dev/currents-playwright/compare/v1.4.6...v1.5.0) (2024-07-31)
+
+### Bug Fixes
+
+- Support the last-failed flag ([988c27a](https://github.com/currents-dev/currents-playwright/commit/988c27ac3567b42ac8d60fe25bb606a67c04b022))
+
+### Features
+
+- detect cancellation in or8n createTask ([644d8cf](https://github.com/currents-dev/currents-playwright/commit/644d8cf21ae21c8470acb50f943d8cac9c4557fb))
+
+## [1.4.6](https://github.com/currents-dev/currents-playwright/compare/v1.4.5...v1.4.6) (2024-07-26)
+
+### Bug Fixes
+
+- show correct count of failed flaky tests ([2f26bd2](https://github.com/currents-dev/currents-playwright/commit/2f26bd2036ec98158e1a84ed0d63b40c283a525a))
 
 ## [1.4.5](https://github.com/currents-dev/currents-playwright/compare/v1.4.3...v1.4.5) (2024-07-10)
 
-
 ### Bug Fixes
 
-* add CURRENTS_PWCP_DRY_RUN ([c2b6777](https://github.com/currents-dev/currents-playwright/commit/c2b6777eb07b0478064a02782deaaf7d4c4564f7))
+- add CURRENTS_PWCP_DRY_RUN ([c2b6777](https://github.com/currents-dev/currents-playwright/commit/c2b6777eb07b0478064a02782deaaf7d4c4564f7))
 
 ## [1.4.4](https://github.com/currents-dev/currents-playwright/compare/v1.4.4...v1.4.3) (2024-06-25)
 
