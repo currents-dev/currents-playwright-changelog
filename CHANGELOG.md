@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.3...v1.5.4) (2024-08-09)
+
+
+### Bug Fixes
+
+* change author filed to object ([1ddca8f](https://github.com/currents-dev/currents-playwright-changelog/commit/1ddca8fbe3df7ce0c3eb2e2f2d2e4f410dff3db2))
+
 ## [1.5.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.2...v1.5.3) (2024-08-08)
 
 
