@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.5](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.4...v1.5.5) (2024-08-09)
+
+
+### Bug Fixes
+
+* clean up package.json before publishing ([dbb77df](https://github.com/currents-dev/currents-playwright-changelog/commit/dbb77dfa73cc483147e240522225bb24be8037aa))
+
 ## [1.5.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.3...v1.5.4) (2024-08-09)
 
 
