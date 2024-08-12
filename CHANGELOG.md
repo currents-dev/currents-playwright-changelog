@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.6](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.5...v1.5.6) (2024-08-12)
+
+
+### Bug Fixes
+
+* add creation time for create requests ([5f440a2](https://github.com/currents-dev/currents-playwright-changelog/commit/5f440a24fc845333af7ace41b923a193f7ebc9e9))
+* allow empty config ([56889fb](https://github.com/currents-dev/currents-playwright-changelog/commit/56889fba11b0435ac251cee879e3934088883cda))
+
 ## [1.5.5](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.4...v1.5.5) (2024-08-09)
 
 
