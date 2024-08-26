@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.5.7](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.6...v1.5.7) (2024-08-26)
+
+
+### Bug Fixes
+
+* compress requests gt 1MB ([#184](https://github.com/currents-dev/currents-playwright-changelog/issues/184)) ([e5acd9d](https://github.com/currents-dev/currents-playwright-changelog/commit/e5acd9d7b6e73d34db5411d636b1bfb2d80c1fe8))
+* limit error message and stack to 2048 chars ([#185](https://github.com/currents-dev/currents-playwright-changelog/issues/185)) ([4055a1d](https://github.com/currents-dev/currents-playwright-changelog/commit/4055a1d616939f991ef3e97239363b3e12509295))
+* retry network requests on ENOTFOUND and EAI_AGAIN ([#186](https://github.com/currents-dev/currents-playwright-changelog/issues/186)) ([87a4df2](https://github.com/currents-dev/currents-playwright-changelog/commit/87a4df264320ee955a0a23b91f0b6e93acf95253))
+
 ## [1.5.6](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.5...v1.5.6) (2024-08-12)
 
 
