@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.8](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.6...v1.5.8) (2024-08-27)
+
+
+### Bug Fixes
+
+* Report flaky skipped tests rather than listing them as failed ([9d18b29](https://github.com/currents-dev/currents-playwright-changelog/commit/9d18b29bcb42c1cab16fe6ff617a31d7595037fe))
+
 ## [1.5.7](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.6...v1.5.7) (2024-08-26)
 
 
