@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.9](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.8...v1.5.9) (2024-08-28)
+
+
+### Bug Fixes
+
+* add --pwc-skip-reporter-injection ([31edb4d](https://github.com/currents-dev/currents-playwright-changelog/commit/31edb4d6a4c9d68f8c39a3b5a237cd5534f437f6))
+
 ## [1.5.8](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.6...v1.5.8) (2024-08-27)
 
 
