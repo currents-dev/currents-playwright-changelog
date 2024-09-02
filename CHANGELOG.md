@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.10](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.9...v1.5.10) (2024-09-02)
+
+
+### Bug Fixes
+
+* add debug info for orchestration ([#193](https://github.com/currents-dev/currents-playwright-changelog/issues/193)) ([739cc50](https://github.com/currents-dev/currents-playwright-changelog/commit/739cc504bb870c49f56f9cd45ce4ca902e4f46ff))
+
 ## [1.5.9](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.8...v1.5.9) (2024-08-28)
 
 
