@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.6.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.10...v1.6.0-beta.0) (2024-09-05)
+
+
+### Features
+
+* share cross-machines runs status for orchestrated runs ([ef91d56](https://github.com/currents-dev/currents-playwright-changelog/commit/ef91d5623754a65caf46543e9c89d9453cc18e8c))
+
 ## [1.5.10](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.9...v1.5.10) (2024-09-02)
 
 
