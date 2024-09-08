@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.6.0-beta.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.0...v1.6.0-beta.1) (2024-09-08)
+
+
+### Features
+
+* use config file ([bf3aae9](https://github.com/currents-dev/currents-playwright-changelog/commit/bf3aae9ec0a87e4c59bcad4f8c917f0f01f5ef40))
+
 # [1.6.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.10...v1.6.0-beta.0) (2024-09-05)
 
 
