@@ -1,5 +1,7 @@
 # Changelog
 
+# [1.6.0-beta.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.1...v1.6.0-beta.2) (2024-09-08)
+
 # [1.6.0-beta.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.0...v1.6.0-beta.1) (2024-09-08)
 
 
