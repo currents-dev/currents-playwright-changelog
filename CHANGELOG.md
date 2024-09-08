@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.6.0-beta.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.2...v1.6.0-beta.3) (2024-09-08)
+
+
+### Bug Fixes
+
+* combine orchestration config options ([91cf571](https://github.com/currents-dev/currents-playwright-changelog/commit/91cf57159713afaba8c7910692fa6d6e7a7e3be2))
+
 # [1.6.0-beta.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.1...v1.6.0-beta.2) (2024-09-08)
 
 # [1.6.0-beta.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.0...v1.6.0-beta.1) (2024-09-08)
