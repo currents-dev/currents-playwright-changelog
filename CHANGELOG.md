@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.6.0-beta.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.3...v1.6.0-beta.4) (2024-09-09)
+
+
+### Bug Fixes
+
+* show orchestration error message ([deffdcc](https://github.com/currents-dev/currents-playwright-changelog/commit/deffdcc32944d4ec951e8c4546c0fcf9b91a46d0))
+
 # [1.6.0-beta.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.2...v1.6.0-beta.3) (2024-09-08)
 
 
