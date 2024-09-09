@@ -1,41 +1,12 @@
 # Changelog
 
-# [1.6.0-beta.5](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.4...v1.6.0-beta.5) (2024-09-09)
+## [1.5.11](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.10...v1.5.11) (2024-09-09)
 
 
 ### Bug Fixes
 
-* prevent overriding cofnig.orchestration with undefined ([a3944ed](https://github.com/currents-dev/currents-playwright-changelog/commit/a3944edde9c444fbad16f221b330959a5898f7c1))
-
-# [1.6.0-beta.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.3...v1.6.0-beta.4) (2024-09-09)
-
-
-### Bug Fixes
-
-* show orchestration error message ([deffdcc](https://github.com/currents-dev/currents-playwright-changelog/commit/deffdcc32944d4ec951e8c4546c0fcf9b91a46d0))
-
-# [1.6.0-beta.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.2...v1.6.0-beta.3) (2024-09-08)
-
-
-### Bug Fixes
-
-* combine orchestration config options ([91cf571](https://github.com/currents-dev/currents-playwright-changelog/commit/91cf57159713afaba8c7910692fa6d6e7a7e3be2))
-
-# [1.6.0-beta.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.1...v1.6.0-beta.2) (2024-09-08)
-
-# [1.6.0-beta.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.0...v1.6.0-beta.1) (2024-09-08)
-
-
-### Features
-
-* use config file ([bf3aae9](https://github.com/currents-dev/currents-playwright-changelog/commit/bf3aae9ec0a87e4c59bcad4f8c917f0f01f5ef40))
-
-# [1.6.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.10...v1.6.0-beta.0) (2024-09-05)
-
-
-### Features
-
-* share cross-machines runs status for orchestrated runs ([ef91d56](https://github.com/currents-dev/currents-playwright-changelog/commit/ef91d5623754a65caf46543e9c89d9453cc18e8c))
+* added support for only changed flag ([005347c](https://github.com/currents-dev/currents-playwright-changelog/commit/005347c8f9e9028579519f93088f0d96b2b592fb))
+* moved cli only changed parsing to pwc-scanner ([3ba387a](https://github.com/currents-dev/currents-playwright-changelog/commit/3ba387ad30eef9364cd9ef2da63380faf9ccd5dc))
 
 ## [1.5.10](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.9...v1.5.10) (2024-09-02)
 
