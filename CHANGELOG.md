@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.6.0-beta.5](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.4...v1.6.0-beta.5) (2024-09-09)
+
+
+### Bug Fixes
+
+* prevent overriding cofnig.orchestration with undefined ([a3944ed](https://github.com/currents-dev/currents-playwright-changelog/commit/a3944edde9c444fbad16f221b330959a5898f7c1))
+
 # [1.6.0-beta.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.0-beta.3...v1.6.0-beta.4) (2024-09-09)
 
 
