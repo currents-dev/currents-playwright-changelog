@@ -1,80 +1,93 @@
 # Changelog
 
-## [1.5.12](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.11...v1.5.12) (2024-10-07)
-
+## [1.6.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.12...v1.6.1) (2024-10-15)
 
 ### Bug Fixes
 
-* retry on 500 ([124085f](https://github.com/currents-dev/currents-playwright-changelog/commit/124085f67019a3973b8db217eeb77406ad7a2982))
+- npm audit fix ([9184a5d](https://github.com/currents-dev/currents-playwright-changelog/commit/9184a5dd11fc9def9df27b805264059ac7d20345))
+- typo ([6ac5996](https://github.com/currents-dev/currents-playwright-changelog/commit/6ac5996ff246cd93aa3f4cd2e6d98fa69641bc6a))
+
+### Features
+
+- send previousCiBuildId on run creation, if set ([48bfcd0](https://github.com/currents-dev/currents-playwright-changelog/commit/48bfcd0745c3d5501955435a6b1acb9f86d7eb70))
+- show inline test url ([abb336f](https://github.com/currents-dev/currents-playwright-changelog/commit/abb336f005c8ee141763df4d5c2f2a5e8e8af5c0))
+
+# [1.6.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.11...v1.6.0) (2024-09-20)
+
+### Bug Fixes
+
+- patch path-to-regexp ([9cf3d77](https://github.com/currents-dev/currents-playwright-changelog/commit/9cf3d77cfd75b66808f64279fb63d1ef2b17a86c))
+
+### Features
+
+- report orchestration status via onFinish ([c427461](https://github.com/currents-dev/currents-playwright-changelog/commit/c4274611b05801703fa910b95eca83b469ec18e6))
+- use configuration from a config file ([cc29107](https://github.com/currents-dev/currents-playwright-changelog/commit/cc2910771bad5bd11952b2f2f8ddab4a7c5c0591))
+
+## [1.5.12](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.11...v1.5.12) (2024-10-07)
+
+### Bug Fixes
+
+- retry on 500 ([124085f](https://github.com/currents-dev/currents-playwright-changelog/commit/124085f67019a3973b8db217eeb77406ad7a2982))
 
 ## [1.5.11](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.10...v1.5.11) (2024-09-09)
 
-
 ### Bug Fixes
 
-* added support for only changed flag ([005347c](https://github.com/currents-dev/currents-playwright-changelog/commit/005347c8f9e9028579519f93088f0d96b2b592fb))
-* moved cli only changed parsing to pwc-scanner ([3ba387a](https://github.com/currents-dev/currents-playwright-changelog/commit/3ba387ad30eef9364cd9ef2da63380faf9ccd5dc))
+- added support for only changed flag ([005347c](https://github.com/currents-dev/currents-playwright-changelog/commit/005347c8f9e9028579519f93088f0d96b2b592fb))
+- moved cli only changed parsing to pwc-scanner ([3ba387a](https://github.com/currents-dev/currents-playwright-changelog/commit/3ba387ad30eef9364cd9ef2da63380faf9ccd5dc))
 
 ## [1.5.10](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.9...v1.5.10) (2024-09-02)
 
-
 ### Bug Fixes
 
-* add debug info for orchestration ([#193](https://github.com/currents-dev/currents-playwright-changelog/issues/193)) ([739cc50](https://github.com/currents-dev/currents-playwright-changelog/commit/739cc504bb870c49f56f9cd45ce4ca902e4f46ff))
+- add debug info for orchestration ([#193](https://github.com/currents-dev/currents-playwright-changelog/issues/193)) ([739cc50](https://github.com/currents-dev/currents-playwright-changelog/commit/739cc504bb870c49f56f9cd45ce4ca902e4f46ff))
 
 ## [1.5.9](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.8...v1.5.9) (2024-08-28)
 
-
 ### Bug Fixes
 
-* add --pwc-skip-reporter-injection ([31edb4d](https://github.com/currents-dev/currents-playwright-changelog/commit/31edb4d6a4c9d68f8c39a3b5a237cd5534f437f6))
+- add --pwc-skip-reporter-injection ([31edb4d](https://github.com/currents-dev/currents-playwright-changelog/commit/31edb4d6a4c9d68f8c39a3b5a237cd5534f437f6))
 
 ## [1.5.8](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.6...v1.5.8) (2024-08-27)
 
-
 ### Bug Fixes
 
-* Report flaky skipped tests rather than listing them as failed ([9d18b29](https://github.com/currents-dev/currents-playwright-changelog/commit/9d18b29bcb42c1cab16fe6ff617a31d7595037fe))
+- Report flaky skipped tests rather than listing them as failed ([9d18b29](https://github.com/currents-dev/currents-playwright-changelog/commit/9d18b29bcb42c1cab16fe6ff617a31d7595037fe))
 
 ## [1.5.7](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.6...v1.5.7) (2024-08-26)
 
-
 ### Bug Fixes
 
-* compress requests gt 1MB ([#184](https://github.com/currents-dev/currents-playwright-changelog/issues/184)) ([e5acd9d](https://github.com/currents-dev/currents-playwright-changelog/commit/e5acd9d7b6e73d34db5411d636b1bfb2d80c1fe8))
-* limit error message and stack to 2048 chars ([#185](https://github.com/currents-dev/currents-playwright-changelog/issues/185)) ([4055a1d](https://github.com/currents-dev/currents-playwright-changelog/commit/4055a1d616939f991ef3e97239363b3e12509295))
-* retry network requests on ENOTFOUND and EAI_AGAIN ([#186](https://github.com/currents-dev/currents-playwright-changelog/issues/186)) ([87a4df2](https://github.com/currents-dev/currents-playwright-changelog/commit/87a4df264320ee955a0a23b91f0b6e93acf95253))
+- compress requests gt 1MB ([#184](https://github.com/currents-dev/currents-playwright-changelog/issues/184)) ([e5acd9d](https://github.com/currents-dev/currents-playwright-changelog/commit/e5acd9d7b6e73d34db5411d636b1bfb2d80c1fe8))
+- limit error message and stack to 2048 chars ([#185](https://github.com/currents-dev/currents-playwright-changelog/issues/185)) ([4055a1d](https://github.com/currents-dev/currents-playwright-changelog/commit/4055a1d616939f991ef3e97239363b3e12509295))
+- retry network requests on ENOTFOUND and EAI_AGAIN ([#186](https://github.com/currents-dev/currents-playwright-changelog/issues/186)) ([87a4df2](https://github.com/currents-dev/currents-playwright-changelog/commit/87a4df264320ee955a0a23b91f0b6e93acf95253))
 
 ## [1.5.6](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.5...v1.5.6) (2024-08-12)
 
-
 ### Bug Fixes
 
-* add creation time for create requests ([5f440a2](https://github.com/currents-dev/currents-playwright-changelog/commit/5f440a24fc845333af7ace41b923a193f7ebc9e9))
-* allow empty config ([56889fb](https://github.com/currents-dev/currents-playwright-changelog/commit/56889fba11b0435ac251cee879e3934088883cda))
+- add creation time for create requests ([5f440a2](https://github.com/currents-dev/currents-playwright-changelog/commit/5f440a24fc845333af7ace41b923a193f7ebc9e9))
+- allow empty config ([56889fb](https://github.com/currents-dev/currents-playwright-changelog/commit/56889fba11b0435ac251cee879e3934088883cda))
 
 ## [1.5.5](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.4...v1.5.5) (2024-08-09)
 
-
 ### Bug Fixes
 
-* clean up package.json before publishing ([dbb77df](https://github.com/currents-dev/currents-playwright-changelog/commit/dbb77dfa73cc483147e240522225bb24be8037aa))
+- clean up package.json before publishing ([dbb77df](https://github.com/currents-dev/currents-playwright-changelog/commit/dbb77dfa73cc483147e240522225bb24be8037aa))
 
 ## [1.5.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.3...v1.5.4) (2024-08-09)
 
-
 ### Bug Fixes
 
-* change author filed to object ([1ddca8f](https://github.com/currents-dev/currents-playwright-changelog/commit/1ddca8fbe3df7ce0c3eb2e2f2d2e4f410dff3db2))
+- change author filed to object ([1ddca8f](https://github.com/currents-dev/currents-playwright-changelog/commit/1ddca8fbe3df7ce0c3eb2e2f2d2e4f410dff3db2))
 
 ## [1.5.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.2...v1.5.3) (2024-08-08)
 
-
 ### Bug Fixes
 
-* added script to update changelog ([a08dc02](https://github.com/currents-dev/currents-playwright-changelog/commit/a08dc02eea836db0ebc4d037c63724ae3e9d929b))
-* addressed feedback ([1272a5d](https://github.com/currents-dev/currents-playwright-changelog/commit/1272a5d4aae95134ddaf6e4ade726afc2952ca51))
-* run changelog update on release and publish scripts ([f1ef130](https://github.com/currents-dev/currents-playwright-changelog/commit/f1ef13069ea48916705189ff6d7fb9481c552436))
+- added script to update changelog ([a08dc02](https://github.com/currents-dev/currents-playwright-changelog/commit/a08dc02eea836db0ebc4d037c63724ae3e9d929b))
+- addressed feedback ([1272a5d](https://github.com/currents-dev/currents-playwright-changelog/commit/1272a5d4aae95134ddaf6e4ade726afc2952ca51))
+- run changelog update on release and publish scripts ([f1ef130](https://github.com/currents-dev/currents-playwright-changelog/commit/f1ef13069ea48916705189ff6d7fb9481c552436))
 
 ## [1.5.2](https://github.com/currents-dev/currents-playwright/compare/v1.5.1...v1.5.2) (2024-08-01)
 
