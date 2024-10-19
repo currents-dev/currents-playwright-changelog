@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.1...v1.6.2) (2024-10-19)
+
+
+### Bug Fixes
+
+* add attachment type ([#209](https://github.com/currents-dev/currents-playwright-changelog/issues/209)) ([f1b540c](https://github.com/currents-dev/currents-playwright-changelog/commit/f1b540c0266cc603197b2e5a9c636dd436666bb4))
+
 ## [1.6.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.12...v1.6.1) (2024-10-15)
 
 ### Bug Fixes
