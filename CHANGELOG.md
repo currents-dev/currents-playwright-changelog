@@ -1,5 +1,18 @@
 # Changelog
 
+# [1.7.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.2...v1.7.0-beta.0) (2024-11-13)
+
+
+### Bug Fixes
+
+* adding dependabot ([5a7210f](https://github.com/currents-dev/currents-playwright-changelog/commit/5a7210f0ed95ebb83eed98a9d7a2017b6f403bd9))
+* use RULE_ANY_SYMBOL and RULE_NONE_SYMBOL ([41a5918](https://github.com/currents-dev/currents-playwright-changelog/commit/41a5918892be00a6902dff69c7d4fc9437ab8c8a))
+
+
+### Features
+
+* Add support for automation rules ([dfdf8e8](https://github.com/currents-dev/currents-playwright-changelog/commit/dfdf8e8b5fd60b47adee71083126ce17a5b2b1b1))
+
 ## [1.6.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.1...v1.6.2) (2024-10-19)
 
 
