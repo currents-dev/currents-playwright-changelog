@@ -1,24 +1,27 @@
 # Changelog
 
-# [1.7.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.2...v1.7.0-beta.0) (2024-11-13)
-
+# [1.7.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.7.0-beta.0...v1.7.0) (2024-11-19)
 
 ### Bug Fixes
+
+- add coverage options to pwc-p program ([ef0c5e3](https://github.com/currents-dev/currents-playwright-changelog/commit/ef0c5e30302d791649f53cb9e7ec4ba662031ea7))
+- tests ([b81a0a0](https://github.com/currents-dev/currents-playwright-changelog/commit/b81a0a01593a9329547fc08d2c9d8c66a1ef444a))
+- typo ([e2aee5d](https://github.com/currents-dev/currents-playwright-changelog/commit/e2aee5d48dab05c11447d0358c4f60851efa8507))
+- update config example ([b848e29](https://github.com/currents-dev/currents-playwright-changelog/commit/b848e29d6f72e8da4bcb2cf1a46059242e4a71a1))
 
 * adding dependabot ([5a7210f](https://github.com/currents-dev/currents-playwright-changelog/commit/5a7210f0ed95ebb83eed98a9d7a2017b6f403bd9))
 * use RULE_ANY_SYMBOL and RULE_NONE_SYMBOL ([41a5918](https://github.com/currents-dev/currents-playwright-changelog/commit/41a5918892be00a6902dff69c7d4fc9437ab8c8a))
 
-
 ### Features
 
-* Add support for automation rules ([dfdf8e8](https://github.com/currents-dev/currents-playwright-changelog/commit/dfdf8e8b5fd60b47adee71083126ce17a5b2b1b1))
+- Add support for automation rules ([dfdf8e8](https://github.com/currents-dev/currents-playwright-changelog/commit/dfdf8e8b5fd60b47adee71083126ce17a5b2b1b1))
+- Add support for coverage
 
 ## [1.6.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.6.1...v1.6.2) (2024-10-19)
 
-
 ### Bug Fixes
 
-* add attachment type ([#209](https://github.com/currents-dev/currents-playwright-changelog/issues/209)) ([f1b540c](https://github.com/currents-dev/currents-playwright-changelog/commit/f1b540c0266cc603197b2e5a9c636dd436666bb4))
+- add attachment type ([#209](https://github.com/currents-dev/currents-playwright-changelog/issues/209)) ([f1b540c](https://github.com/currents-dev/currents-playwright-changelog/commit/f1b540c0266cc603197b2e5a9c636dd436666bb4))
 
 ## [1.6.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.5.12...v1.6.1) (2024-10-15)
 
