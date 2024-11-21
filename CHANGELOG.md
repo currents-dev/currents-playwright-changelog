@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.7.0...v1.7.1) (2024-11-21)
+
+
+### Bug Fixes
+
+* Move msw back to being a dev package ([25ef14d](https://github.com/currents-dev/currents-playwright-changelog/commit/25ef14d0065c57131242ec96ab493f18ef8164d6))
+* Use proper skip in quarantine so retires skip ([4980282](https://github.com/currents-dev/currents-playwright-changelog/commit/4980282c7694e4e720a02a9fbc80102d36108244))
+
 # [1.7.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.7.0-beta.0...v1.7.0) (2024-11-19)
 
 ### Bug Fixes
