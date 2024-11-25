@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.8.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.7.1...v1.8.0) (2024-11-25)
+
+
+### Bug Fixes
+
+* collect coverage when coverage.projects is an empty array ([c7066c2](https://github.com/currents-dev/currents-playwright-changelog/commit/c7066c2ea3545a726c236989bf227acd5b3468e6))
+
+
+### Features
+
+* Relicense under MIT ([#250](https://github.com/currents-dev/currents-playwright-changelog/issues/250)) ([1797b4c](https://github.com/currents-dev/currents-playwright-changelog/commit/1797b4cbbdf011e1f09e6372ea1aaa3384adf324))
+
 ## [1.7.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.7.0...v1.7.1) (2024-11-21)
 
 
