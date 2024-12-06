@@ -1,5 +1,18 @@
 # Changelog
 
+# [1.9.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.8.0...v1.9.0-beta.0) (2024-12-06)
+
+
+### Bug Fixes
+
+* Output discovery errors in orchestration ([52cc209](https://github.com/currents-dev/currents-playwright-changelog/commit/52cc209966aff0199e4387a5f425a741f286a111))
+
+
+### Features
+
+* Add a git info fixture that can be used in rules matching ([c186f54](https://github.com/currents-dev/currents-playwright-changelog/commit/c186f54f40bb5cfbbbfa0ddc121ff685746a549c))
+* Standardize rules annotations ([a6c93de](https://github.com/currents-dev/currents-playwright-changelog/commit/a6c93decf8620fa23ebafe1ca5b5f0d775cdb730))
+
 # [1.8.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.7.1...v1.8.0) (2024-11-25)
 
 
