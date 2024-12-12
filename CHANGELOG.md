@@ -1,5 +1,13 @@
 # Changelog
 
+# [1.9.0-beta.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.0-beta.0...v1.9.0-beta.1) (2024-12-12)
+
+
+### Bug Fixes
+
+* Allow disabling the currents fixtures ([8ed39d3](https://github.com/currents-dev/currents-playwright-changelog/commit/8ed39d31b6bb137683ee3c30560f329ea5786ef9))
+* Fixture config load spam ([0192808](https://github.com/currents-dev/currents-playwright-changelog/commit/019280858f1d713fe6077463308b439ff6ebfddb))
+
 # [1.9.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.8.0...v1.9.0-beta.0) (2024-12-06)
 
 
