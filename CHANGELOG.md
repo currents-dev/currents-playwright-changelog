@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.9.0-beta.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.0-beta.1...v1.9.0-beta.2) (2024-12-13)
+
+
+### Features
+
+* Rename Rules to Actions ([#298](https://github.com/currents-dev/currents-playwright-changelog/issues/298)) ([a5778ba](https://github.com/currents-dev/currents-playwright-changelog/commit/a5778ba6f7623ece4fd5843f8e5f2210a6dc0fbd))
+
 # [1.9.0-beta.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.0-beta.0...v1.9.0-beta.1) (2024-12-12)
 
 
