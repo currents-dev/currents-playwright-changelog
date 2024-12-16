@@ -1,13 +1,6 @@
 # Changelog
 
-# [1.9.0-beta.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.0-beta.1...v1.9.0-beta.2) (2024-12-13)
-
-
-### Features
-
-* Rename Rules to Actions ([#298](https://github.com/currents-dev/currents-playwright-changelog/issues/298)) ([a5778ba](https://github.com/currents-dev/currents-playwright-changelog/commit/a5778ba6f7623ece4fd5843f8e5f2210a6dc0fbd))
-
-# [1.9.0-beta.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.0-beta.0...v1.9.0-beta.1) (2024-12-12)
+# [1.9.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.0-beta.2...v1.9.0) (2024-12-16)
 
 
 ### Bug Fixes
@@ -27,6 +20,7 @@
 
 * Add a git info fixture that can be used in rules matching ([c186f54](https://github.com/currents-dev/currents-playwright-changelog/commit/c186f54f40bb5cfbbbfa0ddc121ff685746a549c))
 * Standardize rules annotations ([a6c93de](https://github.com/currents-dev/currents-playwright-changelog/commit/a6c93decf8620fa23ebafe1ca5b5f0d775cdb730))
+* Rename Rules to Actions ([#298](https://github.com/currents-dev/currents-playwright-changelog/issues/298)) ([a5778ba](https://github.com/currents-dev/currents-playwright-changelog/commit/a5778ba6f7623ece4fd5843f8e5f2210a6dc0fbd))
 
 # [1.8.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.7.1...v1.8.0) (2024-11-25)
 
