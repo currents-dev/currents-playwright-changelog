@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.0...v1.9.1) (2024-12-27)
+
+
+### Bug Fixes
+
+* Only warn on coverage errors ([7ff08c4](https://github.com/currents-dev/currents-playwright-changelog/commit/7ff08c483eaec6ac646c5b122225f197ce3d1248))
+
 # [1.9.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.0-beta.2...v1.9.0) (2024-12-16)
 
 
