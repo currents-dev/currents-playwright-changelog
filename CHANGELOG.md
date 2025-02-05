@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.1...v1.9.2) (2025-02-05)
+
+
+### Bug Fixes
+
+* Truncate steps after we reach 2000 ([3496969](https://github.com/currents-dev/currents-playwright-changelog/commit/3496969dc26bd671e40a454783409900f371f677))
+
 ## [1.9.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.0...v1.9.1) (2024-12-27)
 
 
