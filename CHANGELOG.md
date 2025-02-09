@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.2...v1.9.3) (2025-02-09)
+
+
+### Bug Fixes
+
+* allow using currents config file with pwc-p [CSR-2123] ([#348](https://github.com/currents-dev/currents-playwright-changelog/issues/348)) ([c768fe2](https://github.com/currents-dev/currents-playwright-changelog/commit/c768fe202942307d477a2abb2f1677566fed463b))
+
 ## [1.9.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.1...v1.9.2) (2025-02-05)
 
 
