@@ -1,67 +1,65 @@
 # Changelog
 
-## [1.9.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.2...v1.9.3) (2025-02-09)
-
+## [1.9.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.3...v1.9.4) (2025-02-12)
 
 ### Bug Fixes
 
-* allow using currents config file with pwc-p [CSR-2123] ([#348](https://github.com/currents-dev/currents-playwright-changelog/issues/348)) ([c768fe2](https://github.com/currents-dev/currents-playwright-changelog/commit/c768fe202942307d477a2abb2f1677566fed463b))
+- add orchestration session creation timeout of 60 seconds ([7a3d419](https://github.com/currents-dev/currents-playwright-changelog/commit/7a3d419c5ea3ba9ef2883ec0d73a15c33f2a2ae6))
+- add machineId parameter to getIntro method in OrchestrationPrinter ([c557d95](https://github.com/currents-dev/currents-playwright-changelog/commit/c557d9571dd51b323ad3168797f4764e9b8e3758))
+
+## [1.9.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.2...v1.9.3) (2025-02-09)
+
+### Bug Fixes
+
+- allow using currents config file with pwc-p [CSR-2123] ([#348](https://github.com/currents-dev/currents-playwright-changelog/issues/348)) ([c768fe2](https://github.com/currents-dev/currents-playwright-changelog/commit/c768fe202942307d477a2abb2f1677566fed463b))
 
 ## [1.9.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.1...v1.9.2) (2025-02-05)
 
-
 ### Bug Fixes
 
-* Truncate steps after we reach 2000 ([3496969](https://github.com/currents-dev/currents-playwright-changelog/commit/3496969dc26bd671e40a454783409900f371f677))
+- Truncate steps after we reach 2000 ([3496969](https://github.com/currents-dev/currents-playwright-changelog/commit/3496969dc26bd671e40a454783409900f371f677))
 
 ## [1.9.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.0...v1.9.1) (2024-12-27)
 
-
 ### Bug Fixes
 
-* Only warn on coverage errors ([7ff08c4](https://github.com/currents-dev/currents-playwright-changelog/commit/7ff08c483eaec6ac646c5b122225f197ce3d1248))
+- Only warn on coverage errors ([7ff08c4](https://github.com/currents-dev/currents-playwright-changelog/commit/7ff08c483eaec6ac646c5b122225f197ce3d1248))
 
 # [1.9.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.0-beta.2...v1.9.0) (2024-12-16)
 
-
 ### Bug Fixes
 
-* Allow disabling the currents fixtures ([8ed39d3](https://github.com/currents-dev/currents-playwright-changelog/commit/8ed39d31b6bb137683ee3c30560f329ea5786ef9))
-* Fixture config load spam ([0192808](https://github.com/currents-dev/currents-playwright-changelog/commit/019280858f1d713fe6077463308b439ff6ebfddb))
+- Allow disabling the currents fixtures ([8ed39d3](https://github.com/currents-dev/currents-playwright-changelog/commit/8ed39d31b6bb137683ee3c30560f329ea5786ef9))
+- Fixture config load spam ([0192808](https://github.com/currents-dev/currents-playwright-changelog/commit/019280858f1d713fe6077463308b439ff6ebfddb))
 
 # [1.9.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.8.0...v1.9.0-beta.0) (2024-12-06)
 
-
 ### Bug Fixes
 
-* Output discovery errors in orchestration ([52cc209](https://github.com/currents-dev/currents-playwright-changelog/commit/52cc209966aff0199e4387a5f425a741f286a111))
-
+- Output discovery errors in orchestration ([52cc209](https://github.com/currents-dev/currents-playwright-changelog/commit/52cc209966aff0199e4387a5f425a741f286a111))
 
 ### Features
 
-* Add a git info fixture that can be used in rules matching ([c186f54](https://github.com/currents-dev/currents-playwright-changelog/commit/c186f54f40bb5cfbbbfa0ddc121ff685746a549c))
-* Standardize rules annotations ([a6c93de](https://github.com/currents-dev/currents-playwright-changelog/commit/a6c93decf8620fa23ebafe1ca5b5f0d775cdb730))
-* Rename Rules to Actions ([#298](https://github.com/currents-dev/currents-playwright-changelog/issues/298)) ([a5778ba](https://github.com/currents-dev/currents-playwright-changelog/commit/a5778ba6f7623ece4fd5843f8e5f2210a6dc0fbd))
+- Add a git info fixture that can be used in rules matching ([c186f54](https://github.com/currents-dev/currents-playwright-changelog/commit/c186f54f40bb5cfbbbfa0ddc121ff685746a549c))
+- Standardize rules annotations ([a6c93de](https://github.com/currents-dev/currents-playwright-changelog/commit/a6c93decf8620fa23ebafe1ca5b5f0d775cdb730))
+- Rename Rules to Actions ([#298](https://github.com/currents-dev/currents-playwright-changelog/issues/298)) ([a5778ba](https://github.com/currents-dev/currents-playwright-changelog/commit/a5778ba6f7623ece4fd5843f8e5f2210a6dc0fbd))
 
 # [1.8.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.7.1...v1.8.0) (2024-11-25)
 
-
 ### Bug Fixes
 
-* collect coverage when coverage.projects is an empty array ([c7066c2](https://github.com/currents-dev/currents-playwright-changelog/commit/c7066c2ea3545a726c236989bf227acd5b3468e6))
-
+- collect coverage when coverage.projects is an empty array ([c7066c2](https://github.com/currents-dev/currents-playwright-changelog/commit/c7066c2ea3545a726c236989bf227acd5b3468e6))
 
 ### Features
 
-* Relicense under MIT ([#250](https://github.com/currents-dev/currents-playwright-changelog/issues/250)) ([1797b4c](https://github.com/currents-dev/currents-playwright-changelog/commit/1797b4cbbdf011e1f09e6372ea1aaa3384adf324))
+- Relicense under MIT ([#250](https://github.com/currents-dev/currents-playwright-changelog/issues/250)) ([1797b4c](https://github.com/currents-dev/currents-playwright-changelog/commit/1797b4cbbdf011e1f09e6372ea1aaa3384adf324))
 
 ## [1.7.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.7.0...v1.7.1) (2024-11-21)
 
-
 ### Bug Fixes
 
-* Move msw back to being a dev package ([25ef14d](https://github.com/currents-dev/currents-playwright-changelog/commit/25ef14d0065c57131242ec96ab493f18ef8164d6))
-* Use proper skip in quarantine so retires skip ([4980282](https://github.com/currents-dev/currents-playwright-changelog/commit/4980282c7694e4e720a02a9fbc80102d36108244))
+- Move msw back to being a dev package ([25ef14d](https://github.com/currents-dev/currents-playwright-changelog/commit/25ef14d0065c57131242ec96ab493f18ef8164d6))
+- Use proper skip in quarantine so retires skip ([4980282](https://github.com/currents-dev/currents-playwright-changelog/commit/4980282c7694e4e720a02a9fbc80102d36108244))
 
 # [1.7.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.7.0-beta.0...v1.7.0) (2024-11-19)
 
