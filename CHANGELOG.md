@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.9.5-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.4...v1.9.5-beta.0) (2025-02-23)
+
+
+### Bug Fixes
+
+* allow using currents config file with pwc-p ([c1c8be3](https://github.com/currents-dev/currents-playwright-changelog/commit/c1c8be399194b28c2c5c0686fdc1fcdd18feec06))
+* init debug if config file defines it, arrange correct assertion for checking mandatory keys, restore load function ([f80f4a1](https://github.com/currents-dev/currents-playwright-changelog/commit/f80f4a125e0f981b8adb9424f8a0d6faf6bf0d14))
+* move block to accept debug from reporter config, remove debug init from default reporter ([e728005](https://github.com/currents-dev/currents-playwright-changelog/commit/e7280053780699427a1e8b37002d680b50903cc0))
+* prevent looping mandatoryConfigKeys if skipValidation is present ([c690a57](https://github.com/currents-dev/currents-playwright-changelog/commit/c690a57db2d4463fbf8d7b38c687d3308f8f0cb4))
+* remove unused debug initialization and console log in DefaultReporter ([79541b9](https://github.com/currents-dev/currents-playwright-changelog/commit/79541b90754456aaaa48dc9c22182e7298c35379))
+
+
+### Features
+
+* add remote debug artifact upload functionality and update reporter integration ([e72328a](https://github.com/currents-dev/currents-playwright-changelog/commit/e72328aeeb0707e63382b0c6b21b67329f2a05e4))
+* use RemoteDebug class ([3ec3026](https://github.com/currents-dev/currents-playwright-changelog/commit/3ec30261436f345f0eafef2a8ba6a53044e1d1c5))
+
 ## [1.9.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.3...v1.9.4) (2025-02-12)
 
 ### Bug Fixes
