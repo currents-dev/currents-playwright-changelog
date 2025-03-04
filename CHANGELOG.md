@@ -1,5 +1,21 @@
 # Changelog
 
+# [1.11.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.4...v1.11.0) (2025-03-04)
+
+
+### Bug Fixes
+
+* add try-catch block to sendCoverage ([c44f41e](https://github.com/currents-dev/currents-playwright-changelog/commit/c44f41ea80251d2e0e724c45d8ee41a66590298a))
+* coverage example ([1fd5ffc](https://github.com/currents-dev/currents-playwright-changelog/commit/1fd5ffc1fc0869958e65793032ae7e2d697505e8))
+* do not send coverage at test attempt level ([6315a9d](https://github.com/currents-dev/currents-playwright-changelog/commit/6315a9dc9170146bdfb07b336edb5451250a1df5))
+* log an error when coverage file failed to load or parse ([f4f0ce3](https://github.com/currents-dev/currents-playwright-changelog/commit/f4f0ce3124bf7af18ecc58f26f95d9401c1c992d))
+* send coverage at spec level ([c7ba2dd](https://github.com/currents-dev/currents-playwright-changelog/commit/c7ba2dd520333712d5365b30706dad65db5db5df))
+
+
+### Features
+
+* Add support for the includes action operator ([8f2faa1](https://github.com/currents-dev/currents-playwright-changelog/commit/8f2faa139aa3ab6bc99bf6979540b1c7884c73c1))
+
 # [1.10.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.4...v1.10.0) (2025-02-27)
 
 
