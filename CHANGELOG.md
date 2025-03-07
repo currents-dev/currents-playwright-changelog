@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.0...v1.11.1) (2025-03-07)
+
+
+### Bug Fixes
+
+* actions, normalize tag matcher value  ([f3caf46](https://github.com/currents-dev/currents-playwright/commit/f3caf46957e09a910781523f3bcfd5c7838dbbd1))
+
 # [1.11.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.4...v1.11.0) (2025-03-04)
 
 
