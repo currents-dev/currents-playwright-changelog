@@ -1,43 +1,79 @@
 # Changelog
 
-## [1.11.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.1...v1.11.3) (2025-03-11)
-
+## [1.11.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.3...v1.11.4) (2025-03-18)
 
 ### Bug Fixes
 
-* use debug level logs for coverage issues ([80da64f](https://github.com/currents-dev/currents-playwright-changelog/commit/80da64f6d897a1c9cbaa86edab2e0a64720ee14d))
+- allow using currents config file with pwc-p ([c1c8be3](https://github.com/currents-dev/currents-playwright-changelog/commit/c1c8be399194b28c2c5c0686fdc1fcdd18feec06))
+
+### Misc
+
+- add remote debug artifact upload functionality and update reporter integration ([e72328a](https://github.com/currents-dev/currents-playwright-changelog/commit/e72328aeeb0707e63382b0c6b21b67329f2a05e4))
+- use RemoteDebug class ([3ec3026](https://github.com/currents-dev/currents-playwright-changelog/commit/3ec30261436f345f0eafef2a8ba6a53044e1d1c5))
+- init debug if config file defines it, arrange correct assertion for checking mandatory keys, restore load function ([f80f4a1](https://github.com/currents-dev/currents-playwright-changelog/commit/f80f4a125e0f981b8adb9424f8a0d6faf6bf0d14))
+- move block to accept debug from reporter config, remove debug init from default reporter ([e728005](https://github.com/currents-dev/currents-playwright-changelog/commit/e7280053780699427a1e8b37002d680b50903cc0))
+- prevent looping mandatoryConfigKeys if skipValidation is present ([c690a57](https://github.com/currents-dev/currents-playwright-changelog/commit/c690a57db2d4463fbf8d7b38c687d3308f8f0cb4))
+- remove unused debug initialization and console log in DefaultReporter ([79541b9](https://github.com/currents-dev/currents-playwright-changelog/commit/79541b90754456aaaa48dc9c22182e7298c35379))
+
+## [1.11.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.1...v1.11.3) (2025-03-11)
+
+### Bug Fixes
+
+- use debug level logs for coverage issues ([80da64f](https://github.com/currents-dev/currents-playwright-changelog/commit/80da64f6d897a1c9cbaa86edab2e0a64720ee14d))
 
 ## [1.11.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.1...v1.11.2) (2025-03-10)
 
 ## [1.11.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.0...v1.11.1) (2025-03-07)
 
-
 ### Bug Fixes
 
-* actions, normalize tag matcher value  ([f3caf46](https://github.com/currents-dev/currents-playwright/commit/f3caf46957e09a910781523f3bcfd5c7838dbbd1))
+- actions, normalize tag matcher value ([f3caf46](https://github.com/currents-dev/currents-playwright/commit/f3caf46957e09a910781523f3bcfd5c7838dbbd1))
 
 # [1.11.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.4...v1.11.0) (2025-03-04)
 
-
 ### Bug Fixes
 
-* add try-catch block to sendCoverage ([c44f41e](https://github.com/currents-dev/currents-playwright-changelog/commit/c44f41ea80251d2e0e724c45d8ee41a66590298a))
-* coverage example ([1fd5ffc](https://github.com/currents-dev/currents-playwright-changelog/commit/1fd5ffc1fc0869958e65793032ae7e2d697505e8))
-* do not send coverage at test attempt level ([6315a9d](https://github.com/currents-dev/currents-playwright-changelog/commit/6315a9dc9170146bdfb07b336edb5451250a1df5))
-* log an error when coverage file failed to load or parse ([f4f0ce3](https://github.com/currents-dev/currents-playwright-changelog/commit/f4f0ce3124bf7af18ecc58f26f95d9401c1c992d))
-* send coverage at spec level ([c7ba2dd](https://github.com/currents-dev/currents-playwright-changelog/commit/c7ba2dd520333712d5365b30706dad65db5db5df))
-
-
-### Features
-
-* Add support for the includes action operator ([8f2faa1](https://github.com/currents-dev/currents-playwright-changelog/commit/8f2faa139aa3ab6bc99bf6979540b1c7884c73c1))
+- add try-catch block to sendCoverage ([c44f41e](https://github.com/currents-dev/currents-playwright-changelog/commit/c44f41ea80251d2e0e724c45d8ee41a66590298a))
+- coverage example ([1fd5ffc](https://github.com/currents-dev/currents-playwright-changelog/commit/1fd5ffc1fc0869958e65793032ae7e2d697505e8))
+- do not send coverage at test attempt level ([6315a9d](https://github.com/currents-dev/currents-playwright-changelog/commit/6315a9dc9170146bdfb07b336edb5451250a1df5))
+- log an error when coverage file failed to load or parse ([f4f0ce3](https://github.com/currents-dev/currents-playwright-changelog/commit/f4f0ce3124bf7af18ecc58f26f95d9401c1c992d))
+- send coverage at spec level ([c7ba2dd](https://github.com/currents-dev/currents-playwright-changelog/commit/c7ba2dd520333712d5365b30706dad65db5db5df))
 
 # [1.10.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.4...v1.10.0) (2025-02-27)
 
+### Features
+
+- Add support for the includes action operator ([8f2faa1](https://github.com/currents-dev/currents-playwright-changelog/commit/8f2faa139aa3ab6bc99bf6979540b1c7884c73c1))
+
+## [1.9.5-beta.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.4...v1.9.5-beta.1) (2025-02-23)
+
+### Bug Fixes
+
+- allow using currents config file with pwc-p ([c1c8be3](https://github.com/currents-dev/currents-playwright-changelog/commit/c1c8be399194b28c2c5c0686fdc1fcdd18feec06))
+- init debug if config file defines it, arrange correct assertion for checking mandatory keys, restore load function ([f80f4a1](https://github.com/currents-dev/currents-playwright-changelog/commit/f80f4a125e0f981b8adb9424f8a0d6faf6bf0d14))
+- move block to accept debug from reporter config, remove debug init from default reporter ([e728005](https://github.com/currents-dev/currents-playwright-changelog/commit/e7280053780699427a1e8b37002d680b50903cc0))
+- prevent looping mandatoryConfigKeys if skipValidation is present ([c690a57](https://github.com/currents-dev/currents-playwright-changelog/commit/c690a57db2d4463fbf8d7b38c687d3308f8f0cb4))
+- remove unused debug initialization and console log in DefaultReporter ([79541b9](https://github.com/currents-dev/currents-playwright-changelog/commit/79541b90754456aaaa48dc9c22182e7298c35379))
 
 ### Features
 
-* Add support for the includes action operator ([8f2faa1](https://github.com/currents-dev/currents-playwright-changelog/commit/8f2faa139aa3ab6bc99bf6979540b1c7884c73c1))
+- add remote debug artifact upload functionality and update reporter integration ([e72328a](https://github.com/currents-dev/currents-playwright-changelog/commit/e72328aeeb0707e63382b0c6b21b67329f2a05e4))
+- use RemoteDebug class ([3ec3026](https://github.com/currents-dev/currents-playwright-changelog/commit/3ec30261436f345f0eafef2a8ba6a53044e1d1c5))
+
+## [1.9.5-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.4...v1.9.5-beta.0) (2025-02-23)
+
+### Bug Fixes
+
+- allow using currents config file with pwc-p ([c1c8be3](https://github.com/currents-dev/currents-playwright-changelog/commit/c1c8be399194b28c2c5c0686fdc1fcdd18feec06))
+- init debug if config file defines it, arrange correct assertion for checking mandatory keys, restore load function ([f80f4a1](https://github.com/currents-dev/currents-playwright-changelog/commit/f80f4a125e0f981b8adb9424f8a0d6faf6bf0d14))
+- move block to accept debug from reporter config, remove debug init from default reporter ([e728005](https://github.com/currents-dev/currents-playwright-changelog/commit/e7280053780699427a1e8b37002d680b50903cc0))
+- prevent looping mandatoryConfigKeys if skipValidation is present ([c690a57](https://github.com/currents-dev/currents-playwright-changelog/commit/c690a57db2d4463fbf8d7b38c687d3308f8f0cb4))
+- remove unused debug initialization and console log in DefaultReporter ([79541b9](https://github.com/currents-dev/currents-playwright-changelog/commit/79541b90754456aaaa48dc9c22182e7298c35379))
+
+### Features
+
+- add remote debug artifact upload functionality and update reporter integration ([e72328a](https://github.com/currents-dev/currents-playwright-changelog/commit/e72328aeeb0707e63382b0c6b21b67329f2a05e4))
+- use RemoteDebug class ([3ec3026](https://github.com/currents-dev/currents-playwright-changelog/commit/3ec30261436f345f0eafef2a8ba6a53044e1d1c5))
 
 ## [1.9.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.9.3...v1.9.4) (2025-02-12)
 
