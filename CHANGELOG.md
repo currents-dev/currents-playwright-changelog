@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.5](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.3...v1.11.5) (2025-03-24)
+
+
+### Bug Fixes
+
+* Restore help from CLI programs, use shared debug option ([0772957](https://github.com/currents-dev/currents-playwright-changelog/commit/077295785648a71845492e589ca902176203f70a))
+
 ## [1.11.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.3...v1.11.4) (2025-03-18)
 
 ### Bug Fixes
