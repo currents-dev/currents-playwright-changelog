@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.7](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.6...v1.11.7) (2025-03-27)
+
+
+### Bug Fixes
+
+* disable fixtures when config is not available ([#411](https://github.com/currents-dev/currents-playwright-changelog/issues/411)) ([acec3a8](https://github.com/currents-dev/currents-playwright-changelog/commit/acec3a8d71590bbe19d8718331d73dab8eccc2ba))
+
 ## [1.11.6](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.5...v1.11.6) (2025-03-26)
 
 ## [1.11.5](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.3...v1.11.5) (2025-03-24)
