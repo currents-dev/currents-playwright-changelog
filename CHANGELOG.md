@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.11.8-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.7...v1.11.8-beta.0) (2025-04-02)
+
+
+### Bug Fixes
+
+* improve test titles ([5d5fc1c](https://github.com/currents-dev/currents-playwright-changelog/commit/5d5fc1cb3b3f3a756a0d4c2a882501c2f7aeab32))
+
+
+### Features
+
+* added predicates matches tests ([6d53e7e](https://github.com/currents-dev/currents-playwright-changelog/commit/6d53e7e046a9f8c73c06edd820b3c7a6781c246e))
+* added string regex test cases ([5bb0ece](https://github.com/currents-dev/currents-playwright-changelog/commit/5bb0ece15d0c23fc70bb1531f63340b421e8dde5))
+* added tests for predicates ([71ec4af](https://github.com/currents-dev/currents-playwright-changelog/commit/71ec4afc1f612c9cd8fcf0349df9b211a0054d4f))
+
 ## [1.11.7](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.6...v1.11.7) (2025-03-27)
 
 
