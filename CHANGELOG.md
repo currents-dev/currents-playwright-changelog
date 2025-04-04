@@ -1,27 +1,28 @@
 # Changelog
 
-## [1.11.8-alpha.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.7...v1.11.8-alpha.0) (2025-04-02)
+# [1.12.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.7...v1.12.0) (2025-04-04)
 
+### Features
+
+- improved support of last failed with or8n [CSR-2354] ([#421](https://github.com/currents-dev/currents-playwright-changelog/issues/421)) ([b1790c5](https://github.com/currents-dev/currents-playwright-changelog/commit/b1790c57cf9e10508f60d8dc2454e0a42b0ca9a9))
 
 ### Bug Fixes
 
-* re-runs for or8n ([6a4a07b](https://github.com/currents-dev/currents-playwright-changelog/commit/6a4a07b53abf1633961b130b06b26da855384103))
+- handle Axios errors in runScript function ([#422](https://github.com/currents-dev/currents-playwright-changelog/issues/422)) ([5c89eb8](https://github.com/currents-dev/currents-playwright-changelog/commit/5c89eb8753e59a7327c9175794bb2eba682d0ddc))
 
 ## [1.11.7](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.6...v1.11.7) (2025-03-27)
 
-
 ### Bug Fixes
 
-* disable fixtures when config is not available ([#411](https://github.com/currents-dev/currents-playwright-changelog/issues/411)) ([acec3a8](https://github.com/currents-dev/currents-playwright-changelog/commit/acec3a8d71590bbe19d8718331d73dab8eccc2ba))
+- disable fixtures when config is not available ([#411](https://github.com/currents-dev/currents-playwright-changelog/issues/411)) ([acec3a8](https://github.com/currents-dev/currents-playwright-changelog/commit/acec3a8d71590bbe19d8718331d73dab8eccc2ba))
 
 ## [1.11.6](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.5...v1.11.6) (2025-03-26)
 
 ## [1.11.5](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.3...v1.11.5) (2025-03-24)
 
-
 ### Bug Fixes
 
-* Restore help from CLI programs, use shared debug option ([0772957](https://github.com/currents-dev/currents-playwright-changelog/commit/077295785648a71845492e589ca902176203f70a))
+- Restore help from CLI programs, use shared debug option ([0772957](https://github.com/currents-dev/currents-playwright-changelog/commit/077295785648a71845492e589ca902176203f70a))
 
 ## [1.11.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.11.3...v1.11.4) (2025-03-18)
 
