@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.12.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.1...v1.12.2) (2025-04-29)
+## [1.12.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.2...v1.12.3) (2025-04-29)
 
 ### Bug Fixes
 
