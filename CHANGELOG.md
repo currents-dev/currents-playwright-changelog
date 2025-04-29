@@ -1,12 +1,10 @@
 # Changelog
 
-# [1.13.0-beta.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.0-beta.0...v1.13.0-beta.1) (2025-04-29)
+## [1.12.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.1...v1.12.2) (2025-04-29)
 
-# [1.13.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.1...v1.13.0-beta.0) (2025-04-28)
+### Bug Fixes
 
-### Features
-
-- added --pwc-batchsize pwc-p ([3493afd](https://github.com/currents-dev/currents-playwright-changelog/commit/3493afd82aa18646f4fc429f6a25ad98aec595dc))
+- support --fail-on-flaky flag introduced in playwright v1.52.0 (#453)
 
 ## [1.12.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.0...v1.12.1) (2025-04-08)
 
