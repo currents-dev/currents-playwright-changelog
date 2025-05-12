@@ -1,20 +1,11 @@
 # Changelog
 
-# [1.13.0-beta.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.5...v1.13.0-beta.2) (2025-05-12)
+## [1.12.6](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.5...v1.12.6) (2025-05-12)
+
 
 ### Bug Fixes
 
-- update prettier and eslint-config-turbo to latest versions; add undici-types dependency ([021839e](https://github.com/currents-dev/currents-playwright-changelog/commit/021839e7f517d31c5b788895a11f6140cf8d6fb4))
-
-# [1.13.0-beta.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.5...v1.13.0-beta.2) (2025-04-29)
-
-# [1.13.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.5...v1.13.0-beta.2) (2025-04-28)
-
-### Features
-
-- allow receiving batched orchestration tasks ([832e30f](https://github.com/currents-dev/currents-playwright-changelog/commit/832e30f03da7d4f2c384a411c8f4abf0e84e1644))
-- implement batched orchestration ([ea20c83](https://github.com/currents-dev/currents-playwright-changelog/commit/ea20c837fe43bbf82f629160d036c31ac7157f4c))
-- use batched orchestration api to create session, fix log ([5150a9b](https://github.com/currents-dev/currents-playwright-changelog/commit/5150a9ba363a38fb1613300eea4a16e56ded8f09))
+* remove undefined or lacking type annotations ([#488](https://github.com/currents-dev/currents-playwright-changelog/issues/488)) ([28e81f8](https://github.com/currents-dev/currents-playwright-changelog/commit/28e81f84b62c629ef5c93527dce6de58739d608a))
 
 ## [1.12.5](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.4...v1.12.5) (2025-05-12)
 
