@@ -1,11 +1,20 @@
 # Changelog
 
+## [1.12.5](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.4...v1.12.5) (2025-05-12)
+
+### Bug Fixes
+
+- add machine reset logic with global state in pwc-p-runner process ([#470](https://github.com/currents-dev/currents-playwright-changelog/issues/470)) ([51adb6f](https://github.com/currents-dev/currents-playwright-changelog/commit/51adb6fb506fbc875da98885d5d13c832c03728a))
+- Bump @babel/code-frame from `7.26.2` to `7.27.1` ([#475](https://github.com/currents-dev/currents-playwright-changelog/issues/475)) ([3f9ec84](https://github.com/currents-dev/currents-playwright-changelog/commit/3f9ec845044550e195bf3b269afcb531b7512da9))
+- bump execa from `9.5.2` to `9.5.3` ([8cfaca2](https://github.com/currents-dev/currents-playwright-changelog/commit/8cfaca2333e14010630b3910d3bb799decf4e7d9))
+
 ## [1.12.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.3...v1.12.4) (2025-05-09)
 
 ### Bug Fixes
 
 - Support attempt level annotations [CSR-2502] ([#467](https://github.com/currents-dev/currents-playwright-changelog/issues/467)) ([04f265a](https://github.com/currents-dev/currents-playwright-changelog/commit/04f265a6b32674db0186fbc7fc51b6cbf14344fb))
 - Update discovery for last failed to support sharding [CSR-2469] ([#455](https://github.com/currents-dev/currents-playwright-changelog/issues/455)) ([cbe8870](https://github.com/currents-dev/currents-playwright-changelog/commit/cbe8870c958fef83ddb982224c3f3c0f06f2f6d3)), closes [#466](https://github.com/currents-dev/currents-playwright-changelog/issues/466)
+- Re-apply actions when afterAll hooks fail [CSR-2167] ([#445](https://github.com/currents-dev/currents-playwright/pull/445))
 
 ## [1.12.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.2...v1.12.3) (2025-04-29)
 
