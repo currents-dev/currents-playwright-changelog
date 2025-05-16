@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.0...v1.13.1) (2025-05-16)
+
+
+### Bug Fixes
+
+* prevent overriding NODE_OPTIONS for pwc ([#491](https://github.com/currents-dev/currents-playwright-changelog/issues/491)) ([b344fdc](https://github.com/currents-dev/currents-playwright-changelog/commit/b344fdce935455d05531fde736c76807080c4698))
+
 # [1.13.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.6...v1.13.0) (2025-05-13)
 
 ### Features
