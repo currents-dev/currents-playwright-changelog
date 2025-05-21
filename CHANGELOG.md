@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.13.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.1...v1.13.2) (2025-05-21)
+
 ## [1.13.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.0...v1.13.1) (2025-05-16)
 
 
