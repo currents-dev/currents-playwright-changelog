@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.13.4) (2025-05-30)
+
+
+### Bug Fixes
+
+* escape special characters for spec files in orchestration [CSR-2675]  ([#501](https://github.com/currents-dev/currents-playwright/issues/501)) ([09eef4c](https://github.com/currents-dev/currents-playwright/commit/09eef4c24c4422bb50706aed5224504f16daad24))
+
 ## [1.13.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.2...v1.13.3) (2025-05-29)
 
 ### Bug Fixes
