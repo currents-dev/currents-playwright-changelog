@@ -1,5 +1,19 @@
 # Changelog
 
+# [1.14.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.14.0-beta.0...v1.14.0) (2025-06-09)
+
+### Features
+
+* Add support for upcoming error message actions ([75a3a6b](https://github.com/currents-dev/currents-playwright/commit/75a3a6b4e527a96dfcd69b39b104a9db373be19a))
+* support project level workers and batch size ([#495](https://github.com/currents-dev/currents-playwright/issues/495))
+
+### Bug Fixes
+
+* bump ts-pattern from 5.7.0 to 5.7.1 ([#520](https://github.com/currents-dev/currents-playwright/issues/520)) ([4e79425](https://github.com/currents-dev/currents-playwright/commit/4e79425ae27b22745ff2b428b1ad261f58427a42))
+* bump ws from 8.18.1 to 8.18.2 ([#521](https://github.com/currents-dev/currents-playwright/issues/521)) ([43e18f0](https://github.com/currents-dev/currents-playwright/commit/43e18f0f07469f35660c23b2caddd79bbac118f0))
+* await for uploads before starting the next or8n task for reruns [CSR-2683] ([#516](https://github.com/currents-dev/currents-playwright/issues/516)) ([2ffbd18](https://github.com/currents-dev/currents-playwright/commit/2ffbd180d4c32c9af3b9f967ada7815375f95891))
+* escape special characters for spec files in orchestration [CSR-2675]  ([#501](https://github.com/currents-dev/currents-playwright/issues/501)) ([09eef4c](https://github.com/currents-dev/currents-playwright/commit/09eef4c24c4422bb50706aed5224504f16daad24))
+
 # [1.14.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.14.0-beta.0) (2025-06-05)
 
 
