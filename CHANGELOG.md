@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.14.1-alpha.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.14.1-alpha.0) (2025-06-12)
+
+### Features
+
+* Allow disabling orchestration event mode ([8f1fcdd](https://github.com/currents-dev/currents-playwright-changelog/commit/8f1fcdd49b4fed214c7ea7d860d037a246f1086a))
+
 # [1.14.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.14.0-beta.0...v1.14.0) (2025-06-09)
 
 ### Features
