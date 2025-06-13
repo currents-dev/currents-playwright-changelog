@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.1-alpha.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.14.1-alpha.0...v1.14.1-alpha.1) (2025-06-13)
+
+
+### Bug Fixes
+
+* run currents reporter last ([59ba9f4](https://github.com/currents-dev/currents-playwright-changelog/commit/59ba9f42d4b95b8e00da81b280a9199bdc47c334))
+
 ## [1.14.1-alpha.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.14.1-alpha.0) (2025-06-12)
 
 ### Features
