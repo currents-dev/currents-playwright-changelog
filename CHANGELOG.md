@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.14.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.14.1) (2025-06-16)
+
+
+### Bug Fixes
+
+* wait for reporters like blob reporter before starting new tasks [CSR-2742] ([#524](https://github.com/currents-dev/currents-playwright-changelog/issues/524)) ([cbc34e2](https://github.com/currents-dev/currents-playwright-changelog/commit/cbc34e2445482d7358ad32da5cd9669b11aae213))
+
+
 ## [1.14.1-alpha.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.14.1-alpha.0...v1.14.1-alpha.1) (2025-06-13)
 
 
