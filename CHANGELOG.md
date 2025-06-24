@@ -1,24 +1,6 @@
 # Changelog
 
-## [1.14.2-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.14.2-beta.0) (2025-06-24)
-
-
-### Bug Fixes
-
-* add tag to stdout [CSR-2758] ([#535](https://github.com/currents-dev/currents-playwright-changelog/issues/535)) ([46dae5f](https://github.com/currents-dev/currents-playwright-changelog/commit/46dae5fc76011feb0e443df0b618b348bba11cf9))
-* await for uploads before starting the next or8n task for reruns [CSR-2683] ([#516](https://github.com/currents-dev/currents-playwright-changelog/issues/516)) ([2ffbd18](https://github.com/currents-dev/currents-playwright-changelog/commit/2ffbd180d4c32c9af3b9f967ada7815375f95891))
-* bump eslint from 9.23.0 to 9.29.0 ([2798987](https://github.com/currents-dev/currents-playwright-changelog/commit/2798987c1d495dfbee7b264d4cfe6c00327b0405))
-* bump next from 14.2.28 to 14.2.30 ([#526](https://github.com/currents-dev/currents-playwright-changelog/issues/526)) ([b4982bc](https://github.com/currents-dev/currents-playwright-changelog/commit/b4982bcc69819715285105e758f1fbdbf13289eb))
-* bump ts-pattern from 5.7.0 to 5.7.1 ([#520](https://github.com/currents-dev/currents-playwright-changelog/issues/520)) ([4e79425](https://github.com/currents-dev/currents-playwright-changelog/commit/4e79425ae27b22745ff2b428b1ad261f58427a42))
-* bump ws from 8.18.1 to 8.18.2 ([#521](https://github.com/currents-dev/currents-playwright-changelog/issues/521)) ([43e18f0](https://github.com/currents-dev/currents-playwright-changelog/commit/43e18f0f07469f35660c23b2caddd79bbac118f0))
-* escape special characters for spec files in orchestration [CSR-2675]  ([#501](https://github.com/currents-dev/currents-playwright-changelog/issues/501)) ([09eef4c](https://github.com/currents-dev/currents-playwright-changelog/commit/09eef4c24c4422bb50706aed5224504f16daad24))
-* include batch size in CurrentsFixtures type, change batchSize to currentsBatchSize [CSR-2722] ([#517](https://github.com/currents-dev/currents-playwright-changelog/issues/517)) ([e73b7bd](https://github.com/currents-dev/currents-playwright-changelog/commit/e73b7bd0188d0f17c25fa1fa2141caa6b8990abd))
-* wait for reporters like blob reporter before starting new tasks [CSR-2742] ([#524](https://github.com/currents-dev/currents-playwright-changelog/issues/524)) ([cbc34e2](https://github.com/currents-dev/currents-playwright-changelog/commit/cbc34e2445482d7358ad32da5cd9669b11aae213))
-
-
-### Features
-
-* Add support for upcoming error message actions ([75a3a6b](https://github.com/currents-dev/currents-playwright-changelog/commit/75a3a6b4e527a96dfcd69b39b104a9db373be19a))
+## [1.14.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.14.2-beta.0...v1.14.2) (2025-06-24)
 
 ## [1.14.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.14.1) (2025-06-16)
 
