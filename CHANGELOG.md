@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.15.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.15.0) (2025-07-02)
+
+
+### Bug Fixes
+
+* bump axios from 1.9.0 to 1.10.0 ([#544](https://github.com/currents-dev/currents-playwright-changelog/issues/544)) ([321a301](https://github.com/currents-dev/currents-playwright-changelog/commit/321a30151c8c13f5a20d956bd4f0fa9feb4297cf))
+* bump ws from 8.18.2 to 8.18.3 ([#545](https://github.com/currents-dev/currents-playwright-changelog/issues/545)) ([530a7af](https://github.com/currents-dev/currents-playwright-changelog/commit/530a7afd864080541edd5311aa0facf42b3b76e3))
+
+### Features
+
+* Support upcoming Add Tag Currents Action [CSR-1988]  ([#471](https://github.com/currents-dev/currents-playwright-changelog/issues/471)) ([5243c29](https://github.com/currents-dev/currents-playwright-changelog/commit/5243c293ded80d9087b264b50bd05082678333be))
+
 ## [1.14.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.14.2-beta.0...v1.14.2) (2025-06-24)
 
 ## [1.14.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.14.1) (2025-06-16)
