@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.1](https://github.com/currents-dev/currents-playwright/compare/v1.15.0...v1.15.1) (2025-07-04)
+
+
+### Bug Fixes
+
+* ansi error message matching in actions ([#548](https://github.com/currents-dev/currents-playwright/issues/548)) ([738c91e](https://github.com/currents-dev/currents-playwright/commit/738c91edb20dd027bec22a52d8ae4e94bca08d17))
+
 # [1.15.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.15.0) (2025-07-02)
 
 
