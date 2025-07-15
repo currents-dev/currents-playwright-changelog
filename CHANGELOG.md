@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.15.1...v1.15.2) (2025-07-15)
+
+
+### Bug Fixes
+
+* show correctly maxFailures warning [CSR-2866]  ([#557](https://github.com/currents-dev/currents-playwright-changelog/issues/557)) ([098edf4](https://github.com/currents-dev/currents-playwright-changelog/commit/098edf4c10d02708b43f117ed30d822ce3f68ee4))
+
 ## [1.15.1](https://github.com/currents-dev/currents-playwright/compare/v1.15.0...v1.15.1) (2025-07-04)
 
 
