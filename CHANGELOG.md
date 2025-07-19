@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.15.2...v1.15.3) (2025-07-19)
+
+
+### Bug Fixes
+
+* promisify and await ws.send function [CSR-2912] ([#563](https://github.com/currents-dev/currents-playwright-changelog/issues/563)) ([d599082](https://github.com/currents-dev/currents-playwright-changelog/commit/d5990825300e851048db7b56ca7206e21b83b2c7))
+
 ## [1.15.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.15.1...v1.15.2) (2025-07-15)
 
 
