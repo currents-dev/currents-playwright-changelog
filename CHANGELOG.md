@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.16.0](https://github.com/currents-dev/currents-playwright/compare/v1.15.3...v1.16.0) (2025-08-20)
+
+
+### Bug Fixes
+
+* bump tmp from 0.2.3 to 0.2.5 ([#579](https://github.com/currents-dev/currents-playwright/issues/579)) ([2410538](https://github.com/currents-dev/currents-playwright/commit/2410538096ac1feae2aafc1aa5d281522d672848))
+* Restore support for last-failed for pw 1.55 ([#587](https://github.com/currents-dev/currents-playwright/issues/587)) ([157004d](https://github.com/currents-dev/currents-playwright/commit/157004d1f3e3a22e91eb00ba4c6b2a68ebe35efd))
+
+### Features
+
+* add support for run and group level tags in rules fixture ([#585](https://github.com/currents-dev/currents-playwright/issues/585)) ([8f3cf69](https://github.com/currents-dev/currents-playwright/commit/8f3cf6939ada5551c6d29feac9887c1148deac3d))
+
 ## [1.15.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.15.2...v1.15.3) (2025-07-19)
 
 
