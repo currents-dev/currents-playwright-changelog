@@ -1,5 +1,33 @@
 # Changelog
 
+# [1.17.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.15.3...v1.17.0) (2025-09-30)
+
+
+### Bug Fixes
+
+* bump axios from 1.11.0 to 1.12.2 ([#598](https://github.com/currents-dev/currents-playwright-changelog/issues/598)) ([1e21928](https://github.com/currents-dev/currents-playwright-changelog/commit/1e219286547d16ea51ddd0770463586dccce02ff))
+* bump debug from 4.4.1 to 4.4.3 ([68dafc9](https://github.com/currents-dev/currents-playwright-changelog/commit/68dafc95c6b84d99d7d1e2b135429a2f6ebd2a6d))
+* bump dotenv from 16.5.0 to 17.2.1 ([ffee0d3](https://github.com/currents-dev/currents-playwright-changelog/commit/ffee0d3475afe89f2611854ce21234e1a755bf96))
+* bump dotenv from 16.6.1 to 17.2.1 in /packages/reporter ([b0e9e6a](https://github.com/currents-dev/currents-playwright-changelog/commit/b0e9e6a9b053f0ec10d6e804300e5e95ee0d4d53))
+* bump dotenv from 17.2.1 to 17.2.2 ([1a23936](https://github.com/currents-dev/currents-playwright-changelog/commit/1a239364ec6e436c3084555ad9355bb4f93d9a27))
+* bump eslint from 9.29.0 to 9.31.0 ([6b67884](https://github.com/currents-dev/currents-playwright-changelog/commit/6b67884f775e6d004d2504622ec0b04e2ce11301))
+* bump eslint from 9.31.0 to 9.35.0 ([2ce965f](https://github.com/currents-dev/currents-playwright-changelog/commit/2ce965f9f39dc30bbbe8aea8a0ebb34917def1e9))
+* bump eslint-config-next from 15.3.1 to 15.4.2 ([#565](https://github.com/currents-dev/currents-playwright-changelog/issues/565)) ([2e6a3ae](https://github.com/currents-dev/currents-playwright-changelog/commit/2e6a3aeba3a9b3afca728256c3778286f9cccdd0))
+* bump eslint-config-next from 15.4.2 to 15.5.4 ([2c3f46e](https://github.com/currents-dev/currents-playwright-changelog/commit/2c3f46e4f3299acbf0dda015285aea2eb83237a7))
+* bump eslint-config-prettier from 9.1.0 to 10.1.8 ([c29abc7](https://github.com/currents-dev/currents-playwright-changelog/commit/c29abc7001516de7f2070f621b29640989b5bf41))
+* bump eslint-config-prettier in /packages/eslint-config-custom ([e840d23](https://github.com/currents-dev/currents-playwright-changelog/commit/e840d234045b1518917ca2eeb25338a725ca49fa))
+* bump eslint-config-turbo from 2.5.4 to 2.5.6 ([ba09609](https://github.com/currents-dev/currents-playwright-changelog/commit/ba09609a8cdcb2511021e26208a7c55868fafc7c))
+* bump execa from 9.5.3 to 9.6.0 ([04c613a](https://github.com/currents-dev/currents-playwright-changelog/commit/04c613a495e7c7d637c536137d6c8f96f0132017))
+* bump pino from 9.6.0 to 9.9.0 ([79108f4](https://github.com/currents-dev/currents-playwright-changelog/commit/79108f46d96ff231d6ff2be07a19afc4548e09f7))
+* bump tmp from 0.2.3 to 0.2.5 ([#579](https://github.com/currents-dev/currents-playwright-changelog/issues/579)) ([2410538](https://github.com/currents-dev/currents-playwright-changelog/commit/2410538096ac1feae2aafc1aa5d281522d672848))
+* Restore support for last-failed for pw 1.55 ([#587](https://github.com/currents-dev/currents-playwright-changelog/issues/587)) ([157004d](https://github.com/currents-dev/currents-playwright-changelog/commit/157004d1f3e3a22e91eb00ba4c6b2a68ebe35efd))
+
+
+### Features
+
+* add support for run and group level tags in rules fixture ([#585](https://github.com/currents-dev/currents-playwright-changelog/issues/585)) ([8f3cf69](https://github.com/currents-dev/currents-playwright-changelog/commit/8f3cf6939ada5551c6d29feac9887c1148deac3d))
+* rename disableTitleTags option to disableTestTags  [CSR-3000] ([#590](https://github.com/currents-dev/currents-playwright-changelog/issues/590)) ([7cd9928](https://github.com/currents-dev/currents-playwright-changelog/commit/7cd9928b30feb17d98988b400c6a48a1d9131db9))
+
 # [1.16.0](https://github.com/currents-dev/currents-playwright/compare/v1.15.3...v1.16.0) (2025-08-20)
 
 
