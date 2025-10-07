@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.17.0...v1.17.1) (2025-10-07)
+
+
+### Bug Fixes
+
+* Fixes pwc discovery support for --test-list and --test-list-invert ([a869ef3](https://github.com/currents-dev/currents-playwright-changelog/commit/a869ef388dd98cd89fb58788e66afdb551fa5526))
+
 # [1.17.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.15.3...v1.17.0) (2025-09-30)
 
 
