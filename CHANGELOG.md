@@ -1,11 +1,10 @@
 # Changelog
 
-## [1.17.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.17.0...v1.17.1) (2025-10-07)
+# [1.18.0](https://github.com/currents-dev/currents-playwright/compare/v1.17.0...v1.18.0) (2025-11-04)
 
+### Features
 
-### Bug Fixes
-
-* Fixes pwc discovery support for --test-list and --test-list-invert ([a869ef3](https://github.com/currents-dev/currents-playwright-changelog/commit/a869ef388dd98cd89fb58788e66afdb551fa5526))
+* Regex Pattern Actions [CSR-2854] ([#627](https://github.com/currents-dev/currents-playwright/issues/627)) ([06d650c](https://github.com/currents-dev/currents-playwright-changelog/commit/06d650c3f4dff697af80bb3663b9a42913d094f8))
 
 # [1.17.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.15.3...v1.17.0) (2025-09-30)
 
