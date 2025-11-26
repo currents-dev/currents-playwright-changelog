@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.19.1](https://github.com/currents-dev/currents-playwright/compare/v1.17.0...v1.19.1) (2025-11-26)
+
+
+### Bug Fixes
+
+* Ensure error.value is used as message to our backend when error.message is undefined ([#633](https://github.com/currents-dev/currents-playwright/issues/633)) ([23ed437](https://github.com/currents-dev/currents-playwright/commit/23ed437e98d3dc474c14bc6bf8096efb755562a4))
+* include project deps in error copy for fake test result [CSR-3401]  ([#641](https://github.com/currents-dev/currents-playwright/issues/641)) ([7129974](https://github.com/currents-dev/currents-playwright/commit/7129974cc7f43f2e9d3668729f3a5bf54b3fc860))
+
+
 # [1.19.0](https://github.com/currents-dev/currents-playwright/compare/v1.18.0...v1.19.0) (2025-11-10)
 
 
