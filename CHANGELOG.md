@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.19.2](https://github.com/currents-dev/currents-playwright/compare/v1.19.1...v1.19.2) (2025-12-03)
+
+
+### Bug Fixes
+
+fix: set dotenv import as quiet to remove log
+fix: downgrade c12 to reduce config loading timing issues 
+
 ## [1.19.1](https://github.com/currents-dev/currents-playwright/compare/v1.17.0...v1.19.1) (2025-11-26)
 
 
