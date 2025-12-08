@@ -1,5 +1,16 @@
 # Changelog
 
+# [1.20.0](https://github.com/currents-dev/currents-playwright/compare/v1.17.0...v1.20.0) (2025-12-08)
+
+
+### Bug Fixes
+
+* bump axios from 1.12.2 to 1.13.2 ([#656](https://github.com/currents-dev/currents-playwright/issues/656)) ([deaa5c2](https://github.com/currents-dev/currents-playwright/commit/deaa5c2479d02a59efe6301343e5036095d323d0))
+* bump dotenv from 17.2.2 to 17.2.3 ([7edbe4f](https://github.com/currents-dev/currents-playwright/commit/7edbe4fa5909ca7b4bb1da250d89bb266a4e35bc))
+* Switch from c12 to using jiti directly for config loading ([a830bc6](https://github.com/currents-dev/currents-playwright/commit/a830bc63e690074582cdb943fa138454a8b1f169))
+
+
+
 ## [1.19.2](https://github.com/currents-dev/currents-playwright/compare/v1.19.1...v1.19.2) (2025-12-03)
 
 
