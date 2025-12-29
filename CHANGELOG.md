@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.20.1](https://github.com/currents-dev/currents-playwright/compare/v1.20.0...v1.20.1) (2025-12-29)
+
+
+### Bug Fixes
+
+* bump eslint from 9.35.0 to 9.39.2 ([#667](https://github.com/currents-dev/currents-playwright/issues/667)) ([625010d](https://github.com/currents-dev/currents-playwright/commit/625010d4c12ba2e40cea93b5fe1ba43a240e63e0))
+* bump next from 15.4.8 to 15.4.9 ([#665](https://github.com/currents-dev/currents-playwright/issues/665)) ([54be510](https://github.com/currents-dev/currents-playwright/commit/54be510ad801f16453066b9a2d0f96d7e9f8948c))
+* bump next from 15.4.9 to 15.4.10 ([#672](https://github.com/currents-dev/currents-playwright/issues/672)) ([eedc32f](https://github.com/currents-dev/currents-playwright/commit/eedc32f5e8f64e8109ec9a47127e97ab61a9dd81))
+* handle orchestration cancellation without hanging [CSR-3540] ([#673](https://github.com/currents-dev/currents-playwright/issues/673)) ([ecf81f4](https://github.com/currents-dev/currents-playwright/commit/ecf81f46ee5cb64f9c82c90bcb48b9abf50f6d5a))
+
+
+
 # [1.20.0](https://github.com/currents-dev/currents-playwright/compare/v1.17.0...v1.20.0) (2025-12-08)
 
 
