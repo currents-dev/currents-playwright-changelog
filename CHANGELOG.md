@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.20.2](https://github.com/currents-dev/currents-playwright/compare/v1.20.1...v1.20.2) (2026-01-13)
+
+
+### Bug Fixes
+
+* Add additional debug logs to identify orchestration discovery timeouts ([#687](https://github.com/currents-dev/currents-playwright/issues/687)) ([853d026](https://github.com/currents-dev/currents-playwright/commit/853d026c58fdb87d1820ba301c3776e9a6494625))
+
 ## [1.20.1](https://github.com/currents-dev/currents-playwright/compare/v1.20.0...v1.20.1) (2025-12-29)
 
 
