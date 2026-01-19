@@ -1,219 +1,203 @@
 # Changelog
 
-## [1.20.2](https://github.com/currents-dev/currents-playwright/compare/v1.20.1...v1.20.2) (2026-01-13)
+# [1.21.0](https://github.com/currents-dev/currents-playwright/compare/v1.20.1...v1.21.0) (2026-01-19)
 
+### Features
+
+A small semantic change in reporting logic for interrupted tests. For example, if tests are stopped by playwright in the middle of execution because of "maxFailures" or SIGINT, the tests will show up as "interrupted" instead of "failed".
+
+We still do not consider them as passed and a spec file or run having an interrupted test will be considered failed.
+
+We bump the minor version to prevent automatic updates.
+
+- report interrupted tets as "interrupted" instead of "failed" ([#689](https://github.com/currents-dev/currents-playwright/issues/689)) [CSR-3573] ([5caabe5](https://github.com/currents-dev/currents-playwright/commit/5caabe534a29b6367f974f8d3a4b35094ccc2c9b))
+
+## [1.20.2](https://github.com/currents-dev/currents-playwright/compare/v1.20.1...v1.20.2) (2026-01-13)
 
 ### Bug Fixes
 
-* Add additional debug logs to identify orchestration discovery timeouts ([#687](https://github.com/currents-dev/currents-playwright/issues/687)) ([853d026](https://github.com/currents-dev/currents-playwright/commit/853d026c58fdb87d1820ba301c3776e9a6494625))
+- Add additional debug logs to identify orchestration discovery timeouts ([#687](https://github.com/currents-dev/currents-playwright/issues/687)) ([853d026](https://github.com/currents-dev/currents-playwright/commit/853d026c58fdb87d1820ba301c3776e9a6494625))
 
 ## [1.20.1](https://github.com/currents-dev/currents-playwright/compare/v1.20.0...v1.20.1) (2025-12-29)
 
-
 ### Bug Fixes
 
-* bump eslint from 9.35.0 to 9.39.2 ([#667](https://github.com/currents-dev/currents-playwright/issues/667)) ([625010d](https://github.com/currents-dev/currents-playwright/commit/625010d4c12ba2e40cea93b5fe1ba43a240e63e0))
-* bump next from 15.4.8 to 15.4.9 ([#665](https://github.com/currents-dev/currents-playwright/issues/665)) ([54be510](https://github.com/currents-dev/currents-playwright/commit/54be510ad801f16453066b9a2d0f96d7e9f8948c))
-* bump next from 15.4.9 to 15.4.10 ([#672](https://github.com/currents-dev/currents-playwright/issues/672)) ([eedc32f](https://github.com/currents-dev/currents-playwright/commit/eedc32f5e8f64e8109ec9a47127e97ab61a9dd81))
-* handle orchestration cancellation without hanging [CSR-3540] ([#673](https://github.com/currents-dev/currents-playwright/issues/673)) ([ecf81f4](https://github.com/currents-dev/currents-playwright/commit/ecf81f46ee5cb64f9c82c90bcb48b9abf50f6d5a))
-
-
+- bump eslint from 9.35.0 to 9.39.2 ([#667](https://github.com/currents-dev/currents-playwright/issues/667)) ([625010d](https://github.com/currents-dev/currents-playwright/commit/625010d4c12ba2e40cea93b5fe1ba43a240e63e0))
+- bump next from 15.4.8 to 15.4.9 ([#665](https://github.com/currents-dev/currents-playwright/issues/665)) ([54be510](https://github.com/currents-dev/currents-playwright/commit/54be510ad801f16453066b9a2d0f96d7e9f8948c))
+- bump next from 15.4.9 to 15.4.10 ([#672](https://github.com/currents-dev/currents-playwright/issues/672)) ([eedc32f](https://github.com/currents-dev/currents-playwright/commit/eedc32f5e8f64e8109ec9a47127e97ab61a9dd81))
+- handle orchestration cancellation without hanging [CSR-3540] ([#673](https://github.com/currents-dev/currents-playwright/issues/673)) ([ecf81f4](https://github.com/currents-dev/currents-playwright/commit/ecf81f46ee5cb64f9c82c90bcb48b9abf50f6d5a))
 
 # [1.20.0](https://github.com/currents-dev/currents-playwright/compare/v1.17.0...v1.20.0) (2025-12-08)
 
-
 ### Bug Fixes
 
-* bump axios from 1.12.2 to 1.13.2 ([#656](https://github.com/currents-dev/currents-playwright/issues/656)) ([deaa5c2](https://github.com/currents-dev/currents-playwright/commit/deaa5c2479d02a59efe6301343e5036095d323d0))
-* bump dotenv from 17.2.2 to 17.2.3 ([7edbe4f](https://github.com/currents-dev/currents-playwright/commit/7edbe4fa5909ca7b4bb1da250d89bb266a4e35bc))
-* Switch from c12 to using jiti directly for config loading ([a830bc6](https://github.com/currents-dev/currents-playwright/commit/a830bc63e690074582cdb943fa138454a8b1f169))
-
-
+- bump axios from 1.12.2 to 1.13.2 ([#656](https://github.com/currents-dev/currents-playwright/issues/656)) ([deaa5c2](https://github.com/currents-dev/currents-playwright/commit/deaa5c2479d02a59efe6301343e5036095d323d0))
+- bump dotenv from 17.2.2 to 17.2.3 ([7edbe4f](https://github.com/currents-dev/currents-playwright/commit/7edbe4fa5909ca7b4bb1da250d89bb266a4e35bc))
+- Switch from c12 to using jiti directly for config loading ([a830bc6](https://github.com/currents-dev/currents-playwright/commit/a830bc63e690074582cdb943fa138454a8b1f169))
 
 ## [1.19.2](https://github.com/currents-dev/currents-playwright/compare/v1.19.1...v1.19.2) (2025-12-03)
-
 
 ### Bug Fixes
 
 fix: set dotenv import as quiet to remove log
-fix: downgrade c12 to reduce config loading timing issues 
+fix: downgrade c12 to reduce config loading timing issues
 
 ## [1.19.1](https://github.com/currents-dev/currents-playwright/compare/v1.17.0...v1.19.1) (2025-11-26)
 
-
 ### Bug Fixes
 
-* Ensure error.value is used as message to our backend when error.message is undefined ([#633](https://github.com/currents-dev/currents-playwright/issues/633)) ([23ed437](https://github.com/currents-dev/currents-playwright/commit/23ed437e98d3dc474c14bc6bf8096efb755562a4))
-* include project deps in error copy for fake test result [CSR-3401]  ([#641](https://github.com/currents-dev/currents-playwright/issues/641)) ([7129974](https://github.com/currents-dev/currents-playwright/commit/7129974cc7f43f2e9d3668729f3a5bf54b3fc860))
-
+- Ensure error.value is used as message to our backend when error.message is undefined ([#633](https://github.com/currents-dev/currents-playwright/issues/633)) ([23ed437](https://github.com/currents-dev/currents-playwright/commit/23ed437e98d3dc474c14bc6bf8096efb755562a4))
+- include project deps in error copy for fake test result [CSR-3401] ([#641](https://github.com/currents-dev/currents-playwright/issues/641)) ([7129974](https://github.com/currents-dev/currents-playwright/commit/7129974cc7f43f2e9d3668729f3a5bf54b3fc860))
 
 # [1.19.0](https://github.com/currents-dev/currents-playwright/compare/v1.18.0...v1.19.0) (2025-11-10)
 
-
 ### Bug Fixes
 
-* vscode pw extension compatibility [CSR-3311] ([#634](https://github.com/currents-dev/currents-playwright/issues/634)) ([cadbe14](https://github.com/currents-dev/currents-playwright/commit/cadbe14f8a39afd18530934370d952e364998abc))
-
-
+- vscode pw extension compatibility [CSR-3311] ([#634](https://github.com/currents-dev/currents-playwright/issues/634)) ([cadbe14](https://github.com/currents-dev/currents-playwright/commit/cadbe14f8a39afd18530934370d952e364998abc))
 
 # [1.18.0](https://github.com/currents-dev/currents-playwright/compare/v1.17.1...v1.18.0) (2025-11-04)
 
 ### Features
 
-* Regex Pattern Actions [CSR-2854] ([#627](https://github.com/currents-dev/currents-playwright/issues/627)) ([06d650c](https://github.com/currents-dev/currents-playwright-changelog/commit/06d650c3f4dff697af80bb3663b9a42913d094f8))
+- Regex Pattern Actions [CSR-2854] ([#627](https://github.com/currents-dev/currents-playwright/issues/627)) ([06d650c](https://github.com/currents-dev/currents-playwright-changelog/commit/06d650c3f4dff697af80bb3663b9a42913d094f8))
 
 ## [1.17.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.17.0...v1.17.1) (2025-10-07)
 
-
 ### Bug Fixes
 
-* Fixes pwc discovery support for --test-list and --test-list-invert ([a869ef3](https://github.com/currents-dev/currents-playwright-changelog/commit/a869ef388dd98cd89fb58788e66afdb551fa5526))
+- Fixes pwc discovery support for --test-list and --test-list-invert ([a869ef3](https://github.com/currents-dev/currents-playwright-changelog/commit/a869ef388dd98cd89fb58788e66afdb551fa5526))
 
 # [1.17.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.15.3...v1.17.0) (2025-09-30)
 
-
 ### Bug Fixes
 
-* bump axios from 1.11.0 to 1.12.2 ([#598](https://github.com/currents-dev/currents-playwright-changelog/issues/598)) ([1e21928](https://github.com/currents-dev/currents-playwright-changelog/commit/1e219286547d16ea51ddd0770463586dccce02ff))
-* bump debug from 4.4.1 to 4.4.3 ([68dafc9](https://github.com/currents-dev/currents-playwright-changelog/commit/68dafc95c6b84d99d7d1e2b135429a2f6ebd2a6d))
-* bump dotenv from 16.5.0 to 17.2.1 ([ffee0d3](https://github.com/currents-dev/currents-playwright-changelog/commit/ffee0d3475afe89f2611854ce21234e1a755bf96))
-* bump dotenv from 16.6.1 to 17.2.1 in /packages/reporter ([b0e9e6a](https://github.com/currents-dev/currents-playwright-changelog/commit/b0e9e6a9b053f0ec10d6e804300e5e95ee0d4d53))
-* bump dotenv from 17.2.1 to 17.2.2 ([1a23936](https://github.com/currents-dev/currents-playwright-changelog/commit/1a239364ec6e436c3084555ad9355bb4f93d9a27))
-* bump eslint from 9.29.0 to 9.31.0 ([6b67884](https://github.com/currents-dev/currents-playwright-changelog/commit/6b67884f775e6d004d2504622ec0b04e2ce11301))
-* bump eslint from 9.31.0 to 9.35.0 ([2ce965f](https://github.com/currents-dev/currents-playwright-changelog/commit/2ce965f9f39dc30bbbe8aea8a0ebb34917def1e9))
-* bump eslint-config-next from 15.3.1 to 15.4.2 ([#565](https://github.com/currents-dev/currents-playwright-changelog/issues/565)) ([2e6a3ae](https://github.com/currents-dev/currents-playwright-changelog/commit/2e6a3aeba3a9b3afca728256c3778286f9cccdd0))
-* bump eslint-config-next from 15.4.2 to 15.5.4 ([2c3f46e](https://github.com/currents-dev/currents-playwright-changelog/commit/2c3f46e4f3299acbf0dda015285aea2eb83237a7))
-* bump eslint-config-prettier from 9.1.0 to 10.1.8 ([c29abc7](https://github.com/currents-dev/currents-playwright-changelog/commit/c29abc7001516de7f2070f621b29640989b5bf41))
-* bump eslint-config-prettier in /packages/eslint-config-custom ([e840d23](https://github.com/currents-dev/currents-playwright-changelog/commit/e840d234045b1518917ca2eeb25338a725ca49fa))
-* bump eslint-config-turbo from 2.5.4 to 2.5.6 ([ba09609](https://github.com/currents-dev/currents-playwright-changelog/commit/ba09609a8cdcb2511021e26208a7c55868fafc7c))
-* bump execa from 9.5.3 to 9.6.0 ([04c613a](https://github.com/currents-dev/currents-playwright-changelog/commit/04c613a495e7c7d637c536137d6c8f96f0132017))
-* bump pino from 9.6.0 to 9.9.0 ([79108f4](https://github.com/currents-dev/currents-playwright-changelog/commit/79108f46d96ff231d6ff2be07a19afc4548e09f7))
-* bump tmp from 0.2.3 to 0.2.5 ([#579](https://github.com/currents-dev/currents-playwright-changelog/issues/579)) ([2410538](https://github.com/currents-dev/currents-playwright-changelog/commit/2410538096ac1feae2aafc1aa5d281522d672848))
-* Restore support for last-failed for pw 1.55 ([#587](https://github.com/currents-dev/currents-playwright-changelog/issues/587)) ([157004d](https://github.com/currents-dev/currents-playwright-changelog/commit/157004d1f3e3a22e91eb00ba4c6b2a68ebe35efd))
-
+- bump axios from 1.11.0 to 1.12.2 ([#598](https://github.com/currents-dev/currents-playwright-changelog/issues/598)) ([1e21928](https://github.com/currents-dev/currents-playwright-changelog/commit/1e219286547d16ea51ddd0770463586dccce02ff))
+- bump debug from 4.4.1 to 4.4.3 ([68dafc9](https://github.com/currents-dev/currents-playwright-changelog/commit/68dafc95c6b84d99d7d1e2b135429a2f6ebd2a6d))
+- bump dotenv from 16.5.0 to 17.2.1 ([ffee0d3](https://github.com/currents-dev/currents-playwright-changelog/commit/ffee0d3475afe89f2611854ce21234e1a755bf96))
+- bump dotenv from 16.6.1 to 17.2.1 in /packages/reporter ([b0e9e6a](https://github.com/currents-dev/currents-playwright-changelog/commit/b0e9e6a9b053f0ec10d6e804300e5e95ee0d4d53))
+- bump dotenv from 17.2.1 to 17.2.2 ([1a23936](https://github.com/currents-dev/currents-playwright-changelog/commit/1a239364ec6e436c3084555ad9355bb4f93d9a27))
+- bump eslint from 9.29.0 to 9.31.0 ([6b67884](https://github.com/currents-dev/currents-playwright-changelog/commit/6b67884f775e6d004d2504622ec0b04e2ce11301))
+- bump eslint from 9.31.0 to 9.35.0 ([2ce965f](https://github.com/currents-dev/currents-playwright-changelog/commit/2ce965f9f39dc30bbbe8aea8a0ebb34917def1e9))
+- bump eslint-config-next from 15.3.1 to 15.4.2 ([#565](https://github.com/currents-dev/currents-playwright-changelog/issues/565)) ([2e6a3ae](https://github.com/currents-dev/currents-playwright-changelog/commit/2e6a3aeba3a9b3afca728256c3778286f9cccdd0))
+- bump eslint-config-next from 15.4.2 to 15.5.4 ([2c3f46e](https://github.com/currents-dev/currents-playwright-changelog/commit/2c3f46e4f3299acbf0dda015285aea2eb83237a7))
+- bump eslint-config-prettier from 9.1.0 to 10.1.8 ([c29abc7](https://github.com/currents-dev/currents-playwright-changelog/commit/c29abc7001516de7f2070f621b29640989b5bf41))
+- bump eslint-config-prettier in /packages/eslint-config-custom ([e840d23](https://github.com/currents-dev/currents-playwright-changelog/commit/e840d234045b1518917ca2eeb25338a725ca49fa))
+- bump eslint-config-turbo from 2.5.4 to 2.5.6 ([ba09609](https://github.com/currents-dev/currents-playwright-changelog/commit/ba09609a8cdcb2511021e26208a7c55868fafc7c))
+- bump execa from 9.5.3 to 9.6.0 ([04c613a](https://github.com/currents-dev/currents-playwright-changelog/commit/04c613a495e7c7d637c536137d6c8f96f0132017))
+- bump pino from 9.6.0 to 9.9.0 ([79108f4](https://github.com/currents-dev/currents-playwright-changelog/commit/79108f46d96ff231d6ff2be07a19afc4548e09f7))
+- bump tmp from 0.2.3 to 0.2.5 ([#579](https://github.com/currents-dev/currents-playwright-changelog/issues/579)) ([2410538](https://github.com/currents-dev/currents-playwright-changelog/commit/2410538096ac1feae2aafc1aa5d281522d672848))
+- Restore support for last-failed for pw 1.55 ([#587](https://github.com/currents-dev/currents-playwright-changelog/issues/587)) ([157004d](https://github.com/currents-dev/currents-playwright-changelog/commit/157004d1f3e3a22e91eb00ba4c6b2a68ebe35efd))
 
 ### Features
 
-* add support for run and group level tags in rules fixture ([#585](https://github.com/currents-dev/currents-playwright-changelog/issues/585)) ([8f3cf69](https://github.com/currents-dev/currents-playwright-changelog/commit/8f3cf6939ada5551c6d29feac9887c1148deac3d))
-* rename disableTitleTags option to disableTestTags  [CSR-3000] ([#590](https://github.com/currents-dev/currents-playwright-changelog/issues/590)) ([7cd9928](https://github.com/currents-dev/currents-playwright-changelog/commit/7cd9928b30feb17d98988b400c6a48a1d9131db9))
+- add support for run and group level tags in rules fixture ([#585](https://github.com/currents-dev/currents-playwright-changelog/issues/585)) ([8f3cf69](https://github.com/currents-dev/currents-playwright-changelog/commit/8f3cf6939ada5551c6d29feac9887c1148deac3d))
+- rename disableTitleTags option to disableTestTags [CSR-3000] ([#590](https://github.com/currents-dev/currents-playwright-changelog/issues/590)) ([7cd9928](https://github.com/currents-dev/currents-playwright-changelog/commit/7cd9928b30feb17d98988b400c6a48a1d9131db9))
 
 # [1.16.0](https://github.com/currents-dev/currents-playwright/compare/v1.15.3...v1.16.0) (2025-08-20)
 
-
 ### Bug Fixes
 
-* bump tmp from 0.2.3 to 0.2.5 ([#579](https://github.com/currents-dev/currents-playwright/issues/579)) ([2410538](https://github.com/currents-dev/currents-playwright/commit/2410538096ac1feae2aafc1aa5d281522d672848))
-* Restore support for last-failed for pw 1.55 ([#587](https://github.com/currents-dev/currents-playwright/issues/587)) ([157004d](https://github.com/currents-dev/currents-playwright/commit/157004d1f3e3a22e91eb00ba4c6b2a68ebe35efd))
+- bump tmp from 0.2.3 to 0.2.5 ([#579](https://github.com/currents-dev/currents-playwright/issues/579)) ([2410538](https://github.com/currents-dev/currents-playwright/commit/2410538096ac1feae2aafc1aa5d281522d672848))
+- Restore support for last-failed for pw 1.55 ([#587](https://github.com/currents-dev/currents-playwright/issues/587)) ([157004d](https://github.com/currents-dev/currents-playwright/commit/157004d1f3e3a22e91eb00ba4c6b2a68ebe35efd))
 
 ### Features
 
-* add support for run and group level tags in rules fixture ([#585](https://github.com/currents-dev/currents-playwright/issues/585)) ([8f3cf69](https://github.com/currents-dev/currents-playwright/commit/8f3cf6939ada5551c6d29feac9887c1148deac3d))
+- add support for run and group level tags in rules fixture ([#585](https://github.com/currents-dev/currents-playwright/issues/585)) ([8f3cf69](https://github.com/currents-dev/currents-playwright/commit/8f3cf6939ada5551c6d29feac9887c1148deac3d))
 
 ## [1.15.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.15.2...v1.15.3) (2025-07-19)
 
-
 ### Bug Fixes
 
-* promisify and await ws.send function [CSR-2912] ([#563](https://github.com/currents-dev/currents-playwright-changelog/issues/563)) ([d599082](https://github.com/currents-dev/currents-playwright-changelog/commit/d5990825300e851048db7b56ca7206e21b83b2c7))
+- promisify and await ws.send function [CSR-2912] ([#563](https://github.com/currents-dev/currents-playwright-changelog/issues/563)) ([d599082](https://github.com/currents-dev/currents-playwright-changelog/commit/d5990825300e851048db7b56ca7206e21b83b2c7))
 
 ## [1.15.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.15.1...v1.15.2) (2025-07-15)
 
-
 ### Bug Fixes
 
-* show correctly maxFailures warning [CSR-2866]  ([#557](https://github.com/currents-dev/currents-playwright-changelog/issues/557)) ([098edf4](https://github.com/currents-dev/currents-playwright-changelog/commit/098edf4c10d02708b43f117ed30d822ce3f68ee4))
+- show correctly maxFailures warning [CSR-2866] ([#557](https://github.com/currents-dev/currents-playwright-changelog/issues/557)) ([098edf4](https://github.com/currents-dev/currents-playwright-changelog/commit/098edf4c10d02708b43f117ed30d822ce3f68ee4))
 
 ## [1.15.1](https://github.com/currents-dev/currents-playwright/compare/v1.15.0...v1.15.1) (2025-07-04)
 
-
 ### Bug Fixes
 
-* ansi error message matching in actions ([#548](https://github.com/currents-dev/currents-playwright/issues/548)) ([738c91e](https://github.com/currents-dev/currents-playwright/commit/738c91edb20dd027bec22a52d8ae4e94bca08d17))
+- ansi error message matching in actions ([#548](https://github.com/currents-dev/currents-playwright/issues/548)) ([738c91e](https://github.com/currents-dev/currents-playwright/commit/738c91edb20dd027bec22a52d8ae4e94bca08d17))
 
 # [1.15.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.15.0) (2025-07-02)
 
-
 ### Bug Fixes
 
-* bump axios from 1.9.0 to 1.10.0 ([#544](https://github.com/currents-dev/currents-playwright-changelog/issues/544)) ([321a301](https://github.com/currents-dev/currents-playwright-changelog/commit/321a30151c8c13f5a20d956bd4f0fa9feb4297cf))
-* bump ws from 8.18.2 to 8.18.3 ([#545](https://github.com/currents-dev/currents-playwright-changelog/issues/545)) ([530a7af](https://github.com/currents-dev/currents-playwright-changelog/commit/530a7afd864080541edd5311aa0facf42b3b76e3))
+- bump axios from 1.9.0 to 1.10.0 ([#544](https://github.com/currents-dev/currents-playwright-changelog/issues/544)) ([321a301](https://github.com/currents-dev/currents-playwright-changelog/commit/321a30151c8c13f5a20d956bd4f0fa9feb4297cf))
+- bump ws from 8.18.2 to 8.18.3 ([#545](https://github.com/currents-dev/currents-playwright-changelog/issues/545)) ([530a7af](https://github.com/currents-dev/currents-playwright-changelog/commit/530a7afd864080541edd5311aa0facf42b3b76e3))
 
 ### Features
 
-* Support upcoming Add Tag Currents Action [CSR-1988]  ([#471](https://github.com/currents-dev/currents-playwright-changelog/issues/471)) ([5243c29](https://github.com/currents-dev/currents-playwright-changelog/commit/5243c293ded80d9087b264b50bd05082678333be))
+- Support upcoming Add Tag Currents Action [CSR-1988] ([#471](https://github.com/currents-dev/currents-playwright-changelog/issues/471)) ([5243c29](https://github.com/currents-dev/currents-playwright-changelog/commit/5243c293ded80d9087b264b50bd05082678333be))
 
 ## [1.14.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.14.2-beta.0...v1.14.2) (2025-06-24)
 
 ## [1.14.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.14.1) (2025-06-16)
 
-
 ### Bug Fixes
 
-* wait for reporters like blob reporter before starting new tasks [CSR-2742] ([#524](https://github.com/currents-dev/currents-playwright-changelog/issues/524)) ([cbc34e2](https://github.com/currents-dev/currents-playwright-changelog/commit/cbc34e2445482d7358ad32da5cd9669b11aae213))
-
+- wait for reporters like blob reporter before starting new tasks [CSR-2742] ([#524](https://github.com/currents-dev/currents-playwright-changelog/issues/524)) ([cbc34e2](https://github.com/currents-dev/currents-playwright-changelog/commit/cbc34e2445482d7358ad32da5cd9669b11aae213))
 
 ## [1.14.1-alpha.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.14.1-alpha.0...v1.14.1-alpha.1) (2025-06-13)
 
-
 ### Bug Fixes
 
-* run currents reporter last ([59ba9f4](https://github.com/currents-dev/currents-playwright-changelog/commit/59ba9f42d4b95b8e00da81b280a9199bdc47c334))
+- run currents reporter last ([59ba9f4](https://github.com/currents-dev/currents-playwright-changelog/commit/59ba9f42d4b95b8e00da81b280a9199bdc47c334))
 
 ## [1.14.1-alpha.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.14.1-alpha.0) (2025-06-12)
 
 ### Features
 
-* Allow disabling orchestration event mode ([8f1fcdd](https://github.com/currents-dev/currents-playwright-changelog/commit/8f1fcdd49b4fed214c7ea7d860d037a246f1086a))
+- Allow disabling orchestration event mode ([8f1fcdd](https://github.com/currents-dev/currents-playwright-changelog/commit/8f1fcdd49b4fed214c7ea7d860d037a246f1086a))
 
 # [1.14.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.14.0-beta.0...v1.14.0) (2025-06-09)
 
 ### Features
 
-* Add support for upcoming error message actions ([75a3a6b](https://github.com/currents-dev/currents-playwright/commit/75a3a6b4e527a96dfcd69b39b104a9db373be19a))
-* support project level workers and batch size ([#495](https://github.com/currents-dev/currents-playwright/issues/495))
+- Add support for upcoming error message actions ([75a3a6b](https://github.com/currents-dev/currents-playwright/commit/75a3a6b4e527a96dfcd69b39b104a9db373be19a))
+- support project level workers and batch size ([#495](https://github.com/currents-dev/currents-playwright/issues/495))
 
 ### Bug Fixes
 
-* bump ts-pattern from 5.7.0 to 5.7.1 ([#520](https://github.com/currents-dev/currents-playwright/issues/520)) ([4e79425](https://github.com/currents-dev/currents-playwright/commit/4e79425ae27b22745ff2b428b1ad261f58427a42))
-* bump ws from 8.18.1 to 8.18.2 ([#521](https://github.com/currents-dev/currents-playwright/issues/521)) ([43e18f0](https://github.com/currents-dev/currents-playwright/commit/43e18f0f07469f35660c23b2caddd79bbac118f0))
-* await for uploads before starting the next or8n task for reruns [CSR-2683] ([#516](https://github.com/currents-dev/currents-playwright/issues/516)) ([2ffbd18](https://github.com/currents-dev/currents-playwright/commit/2ffbd180d4c32c9af3b9f967ada7815375f95891))
-* escape special characters for spec files in orchestration [CSR-2675]  ([#501](https://github.com/currents-dev/currents-playwright/issues/501)) ([09eef4c](https://github.com/currents-dev/currents-playwright/commit/09eef4c24c4422bb50706aed5224504f16daad24))
+- bump ts-pattern from 5.7.0 to 5.7.1 ([#520](https://github.com/currents-dev/currents-playwright/issues/520)) ([4e79425](https://github.com/currents-dev/currents-playwright/commit/4e79425ae27b22745ff2b428b1ad261f58427a42))
+- bump ws from 8.18.1 to 8.18.2 ([#521](https://github.com/currents-dev/currents-playwright/issues/521)) ([43e18f0](https://github.com/currents-dev/currents-playwright/commit/43e18f0f07469f35660c23b2caddd79bbac118f0))
+- await for uploads before starting the next or8n task for reruns [CSR-2683] ([#516](https://github.com/currents-dev/currents-playwright/issues/516)) ([2ffbd18](https://github.com/currents-dev/currents-playwright/commit/2ffbd180d4c32c9af3b9f967ada7815375f95891))
+- escape special characters for spec files in orchestration [CSR-2675] ([#501](https://github.com/currents-dev/currents-playwright/issues/501)) ([09eef4c](https://github.com/currents-dev/currents-playwright/commit/09eef4c24c4422bb50706aed5224504f16daad24))
 
 # [1.14.0-beta.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.14.0-beta.0) (2025-06-05)
 
-
 ### Bug Fixes
 
-* await for uploads before starting the next or8n task for reruns [CSR-2683] ([#516](https://github.com/currents-dev/currents-playwright/issues/516)) ([2ffbd18](https://github.com/currents-dev/currents-playwright/commit/2ffbd180d4c32c9af3b9f967ada7815375f95891))
-* escape special characters for spec files in orchestration [CSR-2675]  ([#501](https://github.com/currents-dev/currents-playwright/issues/501)) ([09eef4c](https://github.com/currents-dev/currents-playwright/commit/09eef4c24c4422bb50706aed5224504f16daad24))
-
+- await for uploads before starting the next or8n task for reruns [CSR-2683] ([#516](https://github.com/currents-dev/currents-playwright/issues/516)) ([2ffbd18](https://github.com/currents-dev/currents-playwright/commit/2ffbd180d4c32c9af3b9f967ada7815375f95891))
+- escape special characters for spec files in orchestration [CSR-2675] ([#501](https://github.com/currents-dev/currents-playwright/issues/501)) ([09eef4c](https://github.com/currents-dev/currents-playwright/commit/09eef4c24c4422bb50706aed5224504f16daad24))
 
 ### Features
 
-* Add support for upcoming error message actions ([75a3a6b](https://github.com/currents-dev/currents-playwright/commit/75a3a6b4e527a96dfcd69b39b104a9db373be19a))
-* support project level workers and batch size ([#495](https://github.com/currents-dev/currents-playwright/issues/495))
+- Add support for upcoming error message actions ([75a3a6b](https://github.com/currents-dev/currents-playwright/commit/75a3a6b4e527a96dfcd69b39b104a9db373be19a))
+- support project level workers and batch size ([#495](https://github.com/currents-dev/currents-playwright/issues/495))
 
 ## [1.13.4](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.3...v1.13.4) (2025-05-30)
 
-
 ### Bug Fixes
 
-* escape special characters for spec files in orchestration [CSR-2675]  ([#501](https://github.com/currents-dev/currents-playwright/issues/501)) ([09eef4c](https://github.com/currents-dev/currents-playwright/commit/09eef4c24c4422bb50706aed5224504f16daad24))
+- escape special characters for spec files in orchestration [CSR-2675] ([#501](https://github.com/currents-dev/currents-playwright/issues/501)) ([09eef4c](https://github.com/currents-dev/currents-playwright/commit/09eef4c24c4422bb50706aed5224504f16daad24))
 
 ## [1.13.3](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.2...v1.13.3) (2025-05-29)
 
 ### Bug Fixes
 
-* coverage fixture issue with file truncations ([#500](https://github.com/currents-dev/currents-playwright/pull/500))
+- coverage fixture issue with file truncations ([#500](https://github.com/currents-dev/currents-playwright/pull/500))
 
 ## [1.13.2](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.1...v1.13.2) (2025-05-21)
 
 ## [1.13.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.13.0...v1.13.1) (2025-05-16)
 
-
 ### Bug Fixes
 
-* prevent overriding NODE_OPTIONS for pwc ([#491](https://github.com/currents-dev/currents-playwright-changelog/issues/491)) ([b344fdc](https://github.com/currents-dev/currents-playwright-changelog/commit/b344fdce935455d05531fde736c76807080c4698))
+- prevent overriding NODE_OPTIONS for pwc ([#491](https://github.com/currents-dev/currents-playwright-changelog/issues/491)) ([b344fdc](https://github.com/currents-dev/currents-playwright-changelog/commit/b344fdce935455d05531fde736c76807080c4698))
 
 # [1.13.0](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.12.6...v1.13.0) (2025-05-13)
 
