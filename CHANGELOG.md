@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.21.1-beta.0](https://github.com/currents-dev/currents-playwright/compare/v1.21.0...v1.21.1-beta.0) (2026-02-05)
+
+### Bug Fixes
+
+- bump lodash from 4.17.21 to 4.17.23 ([#707](https://github.com/currents-dev/currents-playwright/issues/707)) ([f512fa3](https://github.com/currents-dev/currents-playwright/commit/f512fa31a9e52d1dd144476d65bb04ec9c9089e8))
+- Orchestration exit code when cancelled (fail-fast) should always be 1 ([#712](https://github.com/currents-dev/currents-playwright/issues/712)) ([685f3c2](https://github.com/currents-dev/currents-playwright/commit/685f3c24e921fa27a772d9cb00be3fe081d3cb19))
+
 # [1.21.0](https://github.com/currents-dev/currents-playwright/compare/v1.20.1...v1.21.0) (2026-01-19)
 
 ### Features
