@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.21.2](https://github.com/currents-dev/currents-playwright/compare/v1.21.1...v1.21.2) (2026-02-17)
+
+### Bug Fixes
+
+- bump axios from 1.13.2 to 1.13.5 ([#718](https://github.com/currents-dev/currents-playwright/issues/718)) ([9b9b131](https://github.com/currents-dev/currents-playwright/commit/9b9b131eb0187abf14e04c377907fa911edd0f02))
+- bump pino from 9.14.0 to 10.2.0 ([#696](https://github.com/currents-dev/currents-playwright/issues/696)) ([03f25ef](https://github.com/currents-dev/currents-playwright/commit/03f25ef3890aa4331cfa7a0c5fd1e7e79d896e12))
+- Support for deprecated --browser flag ([eb650fb](https://github.com/currents-dev/currents-playwright/commit/eb650fbb40052a36938a1fe61a286b5fb380b139))
+
 ## [1.21.1](https://github.com/currents-dev/currents-playwright/compare/v1.21.0...v1.21.1) (2026-02-05)
 
 ### Bug Fixes
