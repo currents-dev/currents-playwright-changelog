@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.22.0](https://github.com/currents-dev/currents-playwright/compare/v1.21.2...v1.22.0) (2026-03-03)
+
+### Bug Fixes
+
+- added interrupted test case if any element is interrupted [CSR-3876] ([#729](https://github.com/currents-dev/currents-playwright/issues/729)) ([bdce6ee](https://github.com/currents-dev/currents-playwright/commit/bdce6eef2b69692a185e2e7aed62a104fe141ccb))
+- bump @babel/code-frame from 7.28.6 to 7.29.0 ([#730](https://github.com/currents-dev/currents-playwright/issues/730)) ([3854f1d](https://github.com/currents-dev/currents-playwright/commit/3854f1d14c81ca7e610a68fa200c319dbdfe6fbc))
+- bump pino from 10.3.0 to 10.3.1 ([#720](https://github.com/currents-dev/currents-playwright/issues/720)) ([cad86d3](https://github.com/currents-dev/currents-playwright/commit/cad86d337a852d1cc039f3ce7f5ff01f68a2a4dd))
+
+### Features
+
+- add consoleOutput flag for reporter output control [CSR-3433] ([#727](https://github.com/currents-dev/currents-playwright/issues/727)) ([fcbf845](https://github.com/currents-dev/currents-playwright/commit/fcbf845b8c29a30b73189d697dac537d83114208))
+
 ## [1.21.2](https://github.com/currents-dev/currents-playwright/compare/v1.21.1...v1.21.2) (2026-02-17)
 
 ### Bug Fixes
