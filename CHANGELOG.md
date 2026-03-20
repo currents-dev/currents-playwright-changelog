@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.22.0...v1.22.1) (2026-03-20)
+
+
+### Bug Fixes
+
+* **reporter:** support commander v13 and excess argv ([82d6aa7](https://github.com/currents-dev/currents-playwright-changelog/commit/82d6aa715547f257c816a2abd4db507d11fdfafe))
+
 # [1.22.0](https://github.com/currents-dev/currents-playwright/compare/v1.21.2...v1.22.0) (2026-03-03)
 
 ### Bug Fixes
