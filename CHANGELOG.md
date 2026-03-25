@@ -1,11 +1,17 @@
 # Changelog
 
-## [1.22.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.22.0...v1.22.1) (2026-03-20)
-
+## [1.22.2](https://github.com/currents-dev/currents-playwright/compare/v1.22.1...v1.22.2) (2026-03-25)
 
 ### Bug Fixes
 
-* **reporter:** support commander v13 and excess argv ([82d6aa7](https://github.com/currents-dev/currents-playwright-changelog/commit/82d6aa715547f257c816a2abd4db507d11fdfafe))
+- bump axios from 1.13.5 to 1.13.6 ([36076c2](https://github.com/currents-dev/currents-playwright/commit/36076c2aff6ebf6500d1ca0ca88bb0a18aa63f00))
+- or8n strip --project from task creation [CSR-4003] ([#752](https://github.com/currents-dev/currents-playwright/issues/752)) ([a698fd0](https://github.com/currents-dev/currents-playwright/commit/a698fd0ecafcc81b382d0fac1e12970e1e212c85))
+
+## [1.22.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.22.0...v1.22.1) (2026-03-20)
+
+### Bug Fixes
+
+- **reporter:** support commander v13 and excess argv ([82d6aa7](https://github.com/currents-dev/currents-playwright-changelog/commit/82d6aa715547f257c816a2abd4db507d11fdfafe))
 
 # [1.22.0](https://github.com/currents-dev/currents-playwright/compare/v1.21.2...v1.22.0) (2026-03-03)
 
