@@ -1,10 +1,15 @@
 # Changelog
 
+## [1.22.3](https://github.com/currents-dev/currents-playwright/compare/v1.22.2...v1.22.3) (2026-03-31)
+
+### Bug Fixes
+
+- update axios and axios-retry to specific versions in reporter package ([#759](https://github.com/currents-dev/currents-playwright/issues/759)) ([0571297](https://github.com/currents-dev/currents-playwright/commit/0571297dbd16c899d2fa0772051e76686cf6fa54))
+
 ## [1.22.2](https://github.com/currents-dev/currents-playwright/compare/v1.22.1...v1.22.2) (2026-03-25)
 
 ### Bug Fixes
 
-- bump axios from 1.13.5 to 1.13.6 ([36076c2](https://github.com/currents-dev/currents-playwright/commit/36076c2aff6ebf6500d1ca0ca88bb0a18aa63f00))
 - or8n strip --project from task creation [CSR-4003] ([#752](https://github.com/currents-dev/currents-playwright/issues/752)) ([a698fd0](https://github.com/currents-dev/currents-playwright/commit/a698fd0ecafcc81b382d0fac1e12970e1e212c85))
 
 ## [1.22.1](https://github.com/currents-dev/currents-playwright-changelog/compare/v1.22.0...v1.22.1) (2026-03-20)
