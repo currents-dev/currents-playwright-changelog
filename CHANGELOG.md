@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.23.0](https://github.com/currents-dev/currents-playwright/compare/v1.22.3...v1.23.0) (2026-04-09)
+
+### Bug Fixes
+
+- bump axios from 1.13.6 to 1.15.0 in /packages/reporter [CSR-0] ([#768](https://github.com/currents-dev/currents-playwright/issues/768)) ([ae42763](https://github.com/currents-dev/currents-playwright/commit/ae427638542cf8a1f47e4a700fd25c48f7fb97f7))
+- bump lodash from 4.17.23 to 4.18.1 ([#767](https://github.com/currents-dev/currents-playwright/issues/767)) ([017e881](https://github.com/currents-dev/currents-playwright/commit/017e881d245c6fd80acfa9abe4164b48a063b358))
+- enhance CI provider detection and PR env capture [CSR-4046] ([#765](https://github.com/currents-dev/currents-playwright/issues/765)) ([d2bd16e](https://github.com/currents-dev/currents-playwright/commit/d2bd16e272eaf37bfb181168eafc7f672df4d13b))
+
+### Features
+
+- add visual testing example ([#738](https://github.com/currents-dev/currents-playwright/issues/738)) ([5b04482](https://github.com/currents-dev/currents-playwright/commit/5b044829d6c7c1adad471f5a1795f904d0866450))
+
 ## [1.22.3](https://github.com/currents-dev/currents-playwright/compare/v1.22.2...v1.22.3) (2026-03-31)
 
 ### Bug Fixes
