@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.23.1](https://github.com/currents-dev/currents-playwright/compare/v1.23.0...v1.23.1) (2026-04-16)
+
+### Bug Fixes
+
+- project dependencies missing in discovery when filtered by last-failed [CSR-4073] ([#785](https://github.com/currents-dev/currents-playwright/issues/785)) ([480bb59](https://github.com/currents-dev/currents-playwright/commit/480bb590088479d56ab3489c438f006bfe768535)), closes [#788](https://github.com/currents-dev/currents-playwright/issues/788)
+- run only id-only preOnlyTestFilters in discovery scanner [CSR-4094] ([#790](https://github.com/currents-dev/currents-playwright/issues/790)) ([288a240](https://github.com/currents-dev/currents-playwright/commit/288a240357745cb43748b7ac32a749eab4a11e0e))
+
 # [1.23.0](https://github.com/currents-dev/currents-playwright/compare/v1.22.3...v1.23.0) (2026-04-09)
 
 ### Bug Fixes
