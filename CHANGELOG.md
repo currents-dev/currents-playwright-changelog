@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.23.2](https://github.com/currents-dev/currents-playwright/compare/v1.23.1...v1.23.2) (2026-04-17)
+
+### Bug Fixes
+
+- retain trace for quarantine in retain-on-failures trace mode ([1f271c1](https://github.com/currents-dev/currents-playwright/commit/1f271c188296fc5f6a8e3631c8c8ec035bd60ef3))
+
 ## [1.23.1](https://github.com/currents-dev/currents-playwright/compare/v1.23.0...v1.23.1) (2026-04-16)
 
 ### Bug Fixes
