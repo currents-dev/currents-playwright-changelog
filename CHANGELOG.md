@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.23.3](https://github.com/currents-dev/currents-playwright/compare/v1.23.2...v1.23.3) (2026-05-06)
+
+### Bug Fixes
+
+- bump axios from 1.15.0 to 1.16.0 ([#809](https://github.com/currents-dev/currents-playwright/issues/809)) ([0943075](https://github.com/currents-dev/currents-playwright/commit/09430754181ff6356a68b89680d6e2ad37d3d947))
+- bump follow-redirects from 1.15.11 to 1.16.0 ([#801](https://github.com/currents-dev/currents-playwright/issues/801)) ([4299407](https://github.com/currents-dev/currents-playwright/commit/429940704e90fd3313a9a8de1989c8894eccb9b9))
+- bump postcss from 8.5.9 to 8.5.10 ([#800](https://github.com/currents-dev/currents-playwright/issues/800)) ([cfd9556](https://github.com/currents-dev/currents-playwright/commit/cfd9556b674f2d459cc55a5196294ae2506839f1))
+
 ## [1.23.2](https://github.com/currents-dev/currents-playwright/compare/v1.23.1...v1.23.2) (2026-04-17)
 
 ### Bug Fixes
