@@ -1,10 +1,24 @@
 # Changelog
 
-## [1.23.3](https://github.com/currents-dev/currents-playwright/compare/v1.23.2...v1.23.3) (2026-05-06)
+# [2.0.0-beta.1](https://github.com/currents-dev/currents-playwright/compare/v1.23.2...v2.0.0-beta.1) (2026-05-12)
 
 ### Bug Fixes
 
 - bump axios from 1.15.0 to 1.16.0 ([#809](https://github.com/currents-dev/currents-playwright/issues/809)) ([0943075](https://github.com/currents-dev/currents-playwright/commit/09430754181ff6356a68b89680d6e2ad37d3d947))
+- bump axios from 1.15.0 to 1.16.0 in /examples/imported-tests ([#810](https://github.com/currents-dev/currents-playwright/issues/810)) ([839edb1](https://github.com/currents-dev/currents-playwright/commit/839edb1c7fcc58de42d9fd6362f2b7b57028a9bc))
+- bump follow-redirects from 1.15.11 to 1.16.0 ([#801](https://github.com/currents-dev/currents-playwright/issues/801)) ([4299407](https://github.com/currents-dev/currents-playwright/commit/429940704e90fd3313a9a8de1989c8894eccb9b9))
+- bump postcss from 8.5.9 to 8.5.10 ([#800](https://github.com/currents-dev/currents-playwright/issues/800)) ([cfd9556](https://github.com/currents-dev/currents-playwright/commit/cfd9556b674f2d459cc55a5196294ae2506839f1))
+
+# [2.0.0-beta.0](https://github.com/currents-dev/currents-playwright/compare/v1.23.2...v2.0.0-beta.0) (2026-05-12)
+
+### Features
+
+- Restore compatiblilty with Playwright 1.60.0
+
+### Bug Fixes
+
+- bump axios from 1.15.0 to 1.16.0 ([#809](https://github.com/currents-dev/currents-playwright/issues/809)) ([0943075](https://github.com/currents-dev/currents-playwright/commit/09430754181ff6356a68b89680d6e2ad37d3d947))
+- bump axios from 1.15.0 to 1.16.0 in /examples/imported-tests ([#810](https://github.com/currents-dev/currents-playwright/issues/810)) ([839edb1](https://github.com/currents-dev/currents-playwright/commit/839edb1c7fcc58de42d9fd6362f2b7b57028a9bc))
 - bump follow-redirects from 1.15.11 to 1.16.0 ([#801](https://github.com/currents-dev/currents-playwright/issues/801)) ([4299407](https://github.com/currents-dev/currents-playwright/commit/429940704e90fd3313a9a8de1989c8894eccb9b9))
 - bump postcss from 8.5.9 to 8.5.10 ([#800](https://github.com/currents-dev/currents-playwright/issues/800)) ([cfd9556](https://github.com/currents-dev/currents-playwright/commit/cfd9556b674f2d459cc55a5196294ae2506839f1))
 
