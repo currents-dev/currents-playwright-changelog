@@ -1,5 +1,18 @@
 # Changelog
 
+# [2.0.0-beta.3](https://github.com/currents-dev/currents-playwright/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2026-05-14)
+
+# [2.0.0-beta.2](https://github.com/currents-dev/currents-playwright/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2026-05-14)
+
+### Bug Fixes
+
+- correct path references in sharded test setup for fixture configuration ([0a1cebb](https://github.com/currents-dev/currents-playwright/commit/0a1cebb413a86e6f3f7d49de38927f15096b22b6))
+- update path for last-run JSON fixture in discovery last-failed assertions ([23edebd](https://github.com/currents-dev/currents-playwright/commit/23edebdaee489f12cdff883861edd5f50c787c74))
+
+### Features
+
+- enhance orchestration reporter with onExit handling for cleanup and error notification ([22d1842](https://github.com/currents-dev/currents-playwright/commit/22d18428ffe14112a1ac277430b03f5e8bb971c7))
+
 # [2.0.0-beta.1](https://github.com/currents-dev/currents-playwright/compare/v1.23.2...v2.0.0-beta.1) (2026-05-12)
 
 ### Bug Fixes
