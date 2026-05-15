@@ -1,12 +1,10 @@
 # Changelog
 
-# [2.0.0-alpha.1](https://github.com/currents-dev/currents-playwright/compare/v2.0.0-alpha.0...v2.0.0-alpha.1) (2026-05-15)
-
-# [2.0.0-alpha.0](https://github.com/currents-dev/currents-playwright/compare/v2.0.0-beta.3...v2.0.0-alpha.0) (2026-05-14)
+# [v2.0.0-beta.4](https://github.com/currents-dev/currents-playwright/compare/v2.0.0-beta.3...vv2.0.0-beta.4) (2026-05-15)
 
 ### Features
 
-- add pwc-p dicover and pwc-p run subcommands ([58710ef](https://github.com/currents-dev/currents-playwright/commit/58710ef00e3c0f3076be6f49767bb446e8bbe07e))
+- add pwc-p discover and pwc-p run subcommands [CSR-4282] ([#813](https://github.com/currents-dev/currents-playwright/issues/813)) ([efb1303](https://github.com/currents-dev/currents-playwright/commit/efb1303898f9e129f8ead3c3d02b05a154a45e84))
 
 # [2.0.0-beta.3](https://github.com/currents-dev/currents-playwright/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2026-05-14)
 
