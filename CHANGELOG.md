@@ -1,5 +1,7 @@
 # Changelog
 
+# [2.0.0-alpha.1](https://github.com/currents-dev/currents-playwright/compare/v2.0.0-alpha.0...v2.0.0-alpha.1) (2026-05-15)
+
 # [2.0.0-alpha.0](https://github.com/currents-dev/currents-playwright/compare/v2.0.0-beta.3...v2.0.0-alpha.0) (2026-05-14)
 
 ### Features
