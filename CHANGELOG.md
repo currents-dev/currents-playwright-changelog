@@ -1,45 +1,35 @@
 # Changelog
 
-# [v2.0.0-beta.4](https://github.com/currents-dev/currents-playwright/compare/v2.0.0-beta.3...vv2.0.0-beta.4) (2026-05-15)
+# [2.0.0](https://github.com/currents-dev/currents-playwright/compare/v1.23.2...v2.0.0) (2026-05-19)
 
-### Features
+### Breaking changes
 
-- add pwc-p discover and pwc-p run subcommands [CSR-4282] ([#813](https://github.com/currents-dev/currents-playwright/issues/813)) ([efb1303](https://github.com/currents-dev/currents-playwright/commit/efb1303898f9e129f8ead3c3d02b05a154a45e84))
+Breaking changes for orchestration (`pwc-p`) only.
+See the upgrade guide at https://docs.currents.dev/resources/reporters/currents-playwright/migration-to-playwright-1.60
 
-# [2.0.0-beta.3](https://github.com/currents-dev/currents-playwright/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2026-05-14)
-
-# [2.0.0-beta.2](https://github.com/currents-dev/currents-playwright/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2026-05-14)
+- Update uses of `pwc-p` with the run subcommand `pwc-p run`
+- Any Playwright flags for filenames that were used for discovery/filtering need to be passed to `pwc-p discover` rather than `pwc-p run`
 
 ### Bug Fixes
 
+- bump dotenv from 17.2.3 to 17.4.2 ([#820](https://github.com/currents-dev/currents-playwright/issues/820)) ([6e177b4](https://github.com/currents-dev/currents-playwright/commit/6e177b49295b636f7a94b3ce01b5b3107053e11c))
+- bump ws from 8.19.0 to 8.20.1 ([#826](https://github.com/currents-dev/currents-playwright/issues/826)) ([256f08c](https://github.com/currents-dev/currents-playwright/commit/256f08cdfcb5c0809028f7a2efe4ec7f581cf7ed))
+- bump ws from 8.20.0 to 8.20.1 in /examples ([#828](https://github.com/currents-dev/currents-playwright/issues/828)) ([e927257](https://github.com/currents-dev/currents-playwright/commit/e927257403e777da2f89dfa34d1b6584fc549633))
+- remove projectTags from createRun payload ([#829](https://github.com/currents-dev/currents-playwright/issues/829)) ([63e1630](https://github.com/currents-dev/currents-playwright/commit/63e163071ee83d013682a3f57a8db21431041047))
+- surface Playwright errors in discovery reporter ([#832](https://github.com/currents-dev/currents-playwright/issues/832)) ([01da80d](https://github.com/currents-dev/currents-playwright/commit/01da80d4a4b137d1960857dbf0552e4f413137e3))
 - correct path references in sharded test setup for fixture configuration ([0a1cebb](https://github.com/currents-dev/currents-playwright/commit/0a1cebb413a86e6f3f7d49de38927f15096b22b6))
 - update path for last-run JSON fixture in discovery last-failed assertions ([23edebd](https://github.com/currents-dev/currents-playwright/commit/23edebdaee489f12cdff883861edd5f50c787c74))
+- bump axios from 1.15.0 to 1.16.0 ([#809](https://github.com/currents-dev/currents-playwright/issues/809)) ([0943075](https://github.com/currents-dev/currents-playwright/commit/09430754181ff6356a68b89680d6e2ad37d3d947))
+- bump axios from 1.15.0 to 1.16.0 in /examples/imported-tests ([#810](https://github.com/currents-dev/currents-playwright/issues/810)) ([839edb1](https://github.com/currents-dev/currents-playwright/commit/839edb1c7fcc58de42d9fd6362f2b7b57028a9bc))
+- bump follow-redirects from 1.15.11 to 1.16.0 ([#801](https://github.com/currents-dev/currents-playwright/issues/801)) ([4299407](https://github.com/currents-dev/currents-playwright/commit/429940704e90fd3313a9a8de1989c8894eccb9b9))
+- bump postcss from 8.5.9 to 8.5.10 ([#800](https://github.com/currents-dev/currents-playwright/issues/800)) ([cfd9556](https://github.com/currents-dev/currents-playwright/commit/cfd9556b674f2d459cc55a5196294ae2506839f1))
 
 ### Features
 
+- v2 [CSR-4280] ([#815](https://github.com/currents-dev/currents-playwright/issues/815)) ([5e1dff7](https://github.com/currents-dev/currents-playwright/commit/5e1dff7b91e82ba736cf10fc44144cfa5c9cde65))
+- add pwc-p discover and pwc-p run subcommands [CSR-4282] ([#813](https://github.com/currents-dev/currents-playwright/issues/813)) ([efb1303](https://github.com/currents-dev/currents-playwright/commit/efb1303898f9e129f8ead3c3d02b05a154a45e84))
 - enhance orchestration reporter with onExit handling for cleanup and error notification ([22d1842](https://github.com/currents-dev/currents-playwright/commit/22d18428ffe14112a1ac277430b03f5e8bb971c7))
-
-# [2.0.0-beta.1](https://github.com/currents-dev/currents-playwright/compare/v1.23.2...v2.0.0-beta.1) (2026-05-12)
-
-### Bug Fixes
-
-- bump axios from 1.15.0 to 1.16.0 ([#809](https://github.com/currents-dev/currents-playwright/issues/809)) ([0943075](https://github.com/currents-dev/currents-playwright/commit/09430754181ff6356a68b89680d6e2ad37d3d947))
-- bump axios from 1.15.0 to 1.16.0 in /examples/imported-tests ([#810](https://github.com/currents-dev/currents-playwright/issues/810)) ([839edb1](https://github.com/currents-dev/currents-playwright/commit/839edb1c7fcc58de42d9fd6362f2b7b57028a9bc))
-- bump follow-redirects from 1.15.11 to 1.16.0 ([#801](https://github.com/currents-dev/currents-playwright/issues/801)) ([4299407](https://github.com/currents-dev/currents-playwright/commit/429940704e90fd3313a9a8de1989c8894eccb9b9))
-- bump postcss from 8.5.9 to 8.5.10 ([#800](https://github.com/currents-dev/currents-playwright/issues/800)) ([cfd9556](https://github.com/currents-dev/currents-playwright/commit/cfd9556b674f2d459cc55a5196294ae2506839f1))
-
-# [2.0.0-beta.0](https://github.com/currents-dev/currents-playwright/compare/v1.23.2...v2.0.0-beta.0) (2026-05-12)
-
-### Features
-
 - Restore compatiblilty with Playwright 1.60.0
-
-### Bug Fixes
-
-- bump axios from 1.15.0 to 1.16.0 ([#809](https://github.com/currents-dev/currents-playwright/issues/809)) ([0943075](https://github.com/currents-dev/currents-playwright/commit/09430754181ff6356a68b89680d6e2ad37d3d947))
-- bump axios from 1.15.0 to 1.16.0 in /examples/imported-tests ([#810](https://github.com/currents-dev/currents-playwright/issues/810)) ([839edb1](https://github.com/currents-dev/currents-playwright/commit/839edb1c7fcc58de42d9fd6362f2b7b57028a9bc))
-- bump follow-redirects from 1.15.11 to 1.16.0 ([#801](https://github.com/currents-dev/currents-playwright/issues/801)) ([4299407](https://github.com/currents-dev/currents-playwright/commit/429940704e90fd3313a9a8de1989c8894eccb9b9))
-- bump postcss from 8.5.9 to 8.5.10 ([#800](https://github.com/currents-dev/currents-playwright/issues/800)) ([cfd9556](https://github.com/currents-dev/currents-playwright/commit/cfd9556b674f2d459cc55a5196294ae2506839f1))
 
 ## [1.23.2](https://github.com/currents-dev/currents-playwright/compare/v1.23.1...v1.23.2) (2026-04-17)
 
