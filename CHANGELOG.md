@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.1](https://github.com/currents-dev/currents-playwright/compare/v2.1.0...v2.1.1) (2026-05-22)
+
+### Bug Fixes
+
+- include the fully parallel flag into the accepted flags for pwc-p run. ([#840](https://github.com/currents-dev/currents-playwright/issues/840)) ([34615d4](https://github.com/currents-dev/currents-playwright/commit/34615d4da4151d33c27e2efda0dfb3d5a9ec42a8))
+
 # [2.1.0](https://github.com/currents-dev/currents-playwright/compare/v2.0.0...v2.1.0) (2026-05-22)
 
 ### Features
