@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.4](https://github.com/currents-dev/currents-playwright/compare/v2.1.3...v2.1.4) (2026-05-29)
+
+### Bug Fixes
+
+- restore git-preferred commit merge and clean CI branch names [ENG-563] ([#859](https://github.com/currents-dev/currents-playwright/issues/859)) ([a661071](https://github.com/currents-dev/currents-playwright/commit/a6610719e7c0e807a4677add101284b5ec6e029b))
+
 ## [2.1.3](https://github.com/currents-dev/currents-playwright/compare/v2.1.2...v2.1.3) (2026-05-29)
 
 ### Bug Fixes
