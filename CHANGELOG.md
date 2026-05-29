@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.1.3](https://github.com/currents-dev/currents-playwright/compare/v2.1.2...v2.1.3) (2026-05-29)
+
+### Bug Fixes
+
+- adopt CURRENTS_CI_URL as ciUrl config option [ENG-561] ([ef9326b](https://github.com/currents-dev/currents-playwright/commit/ef9326b3dd3728834d3bb86422ee915afd45aa6a))
+- bump tmp from 0.2.5 to 0.2.6 ([#853](https://github.com/currents-dev/currents-playwright/issues/853)) ([73a765d](https://github.com/currents-dev/currents-playwright/commit/73a765d42c7599c251289457753d5689075405b6))
+- bump tmp from 0.2.5 to 0.2.7 in /examples ([#852](https://github.com/currents-dev/currents-playwright/issues/852)) ([8beb700](https://github.com/currents-dev/currents-playwright/commit/8beb700ca00b087bdee1882842965363373765d1))
+- bump tmp from 0.2.5 to 0.2.7 in /examples/imported-tests ([#855](https://github.com/currents-dev/currents-playwright/issues/855)) ([ba99ef2](https://github.com/currents-dev/currents-playwright/commit/ba99ef2cb6b415177e76f708fd128f16dc7d1910))
+- update dependencies in package-lock.json and package.json ([#858](https://github.com/currents-dev/currents-playwright/issues/858)) ([5295543](https://github.com/currents-dev/currents-playwright/commit/52955430f2c09b0f59d82ac81907f1f300370bd7))
+
 ## [2.1.2](https://github.com/currents-dev/currents-playwright/compare/v2.1.1...v2.1.2) (2026-05-26)
 
 ## [2.1.1](https://github.com/currents-dev/currents-playwright/compare/v2.1.0...v2.1.1) (2026-05-22)
