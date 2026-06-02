@@ -1,5 +1,16 @@
 # Changelog
 
+# [2.2.0](https://github.com/currents-dev/currents-playwright/compare/v2.1.4...v2.2.0) (2026-06-02)
+
+### Bug Fixes
+
+- bump jiti from 2.6.1 to 2.7.0 ([#863](https://github.com/currents-dev/currents-playwright/issues/863)) ([7c074b2](https://github.com/currents-dev/currents-playwright/commit/7c074b241f6982a57f146ab85ae1d730bd5e1987))
+- bump tmp from 0.2.6 to 0.2.7 ([#865](https://github.com/currents-dev/currents-playwright/issues/865)) ([293915d](https://github.com/currents-dev/currents-playwright/commit/293915d1a47a526ffe06ac95dc341eb59afe8be7))
+
+### Features
+
+- use unidici and drop axios [ENG-568] ([#836](https://github.com/currents-dev/currents-playwright/issues/836)) ([a3d7f72](https://github.com/currents-dev/currents-playwright/commit/a3d7f72df8ebd7e851687cce6f72b668b0867a26)), closes [#813](https://github.com/currents-dev/currents-playwright/issues/813)
+
 ## [2.1.4](https://github.com/currents-dev/currents-playwright/compare/v2.1.3...v2.1.4) (2026-05-29)
 
 ### Bug Fixes
