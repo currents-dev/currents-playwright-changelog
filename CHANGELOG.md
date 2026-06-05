@@ -1,5 +1,12 @@
 # Changelog
 
+# [2.3.0](https://github.com/currents-dev/currents-playwright/compare/v2.2.0...v2.3.0) (2026-06-05)
+
+### Features
+
+- compress coverage upload [ENG-575] ([#871](https://github.com/currents-dev/currents-playwright/issues/871)) ([b31bc36](https://github.com/currents-dev/currents-playwright/commit/b31bc3678ccde30278c2d3e69f469d2ee91afb1e))
+- gzip-compress instance stdout artifact uploads [ENG-574] ([#869](https://github.com/currents-dev/currents-playwright/issues/869)) ([54681cd](https://github.com/currents-dev/currents-playwright/commit/54681cd645e8660ebe956b51cb2b76b3100abe0b))
+
 # [2.2.0](https://github.com/currents-dev/currents-playwright/compare/v2.1.4...v2.2.0) (2026-06-02)
 
 ### Bug Fixes
