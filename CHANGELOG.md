@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.3.1](https://github.com/currents-dev/currents-playwright/compare/v2.3.0...v2.3.1) (2026-06-16)
+
+### Bug Fixes
+
+- @currents/playwright compatibility with Playwright 1.61.0 [ENG-680] ([#881](https://github.com/currents-dev/currents-playwright/issues/881)) ([87d233b](https://github.com/currents-dev/currents-playwright/commit/87d233b839bd357c425be559cdfbd43350dbc2b7))
+- bump @babel/code-frame from 7.29.0 to 7.29.7 ([#875](https://github.com/currents-dev/currents-playwright/issues/875)) ([7576777](https://github.com/currents-dev/currents-playwright/commit/75767776743a5be817cfaf80fe9fac1f11f8011c))
+- ensure pwc-p run rejects the -G flag ([#882](https://github.com/currents-dev/currents-playwright/issues/882)) ([172e974](https://github.com/currents-dev/currents-playwright/commit/172e9744557e26431d51df7507f78486c8bd0f59))
+
 # [2.3.0](https://github.com/currents-dev/currents-playwright/compare/v2.2.0...v2.3.0) (2026-06-05)
 
 ### Features
