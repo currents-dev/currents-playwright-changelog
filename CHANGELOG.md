@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.3.2](https://github.com/currents-dev/currents-playwright/compare/v2.3.1...v2.3.2) (2026-06-22)
+
+### Bug Fixes
+
+- buffer reporter output emitted before onBegin [ENG-746] ([#897](https://github.com/currents-dev/currents-playwright/issues/897)) ([9d8b43a](https://github.com/currents-dev/currents-playwright/commit/9d8b43ad76ed6d2fd97930e068a3791c607951db))
+- bump form-data from 4.0.5 to 4.0.6 in /examples/imported-tests ([#889](https://github.com/currents-dev/currents-playwright/issues/889)) ([d99883f](https://github.com/currents-dev/currents-playwright/commit/d99883f0dc32792b765b3aeba4f3be27e3a4aa75))
+- bump undici from 6.25.0 to 6.27.0 ([#890](https://github.com/currents-dev/currents-playwright/issues/890)) ([ec113f9](https://github.com/currents-dev/currents-playwright/commit/ec113f9061cd661f4676522cb1400491afeaa95b))
+
 ## [2.3.1](https://github.com/currents-dev/currents-playwright/compare/v2.3.0...v2.3.1) (2026-06-16)
 
 ### Bug Fixes
