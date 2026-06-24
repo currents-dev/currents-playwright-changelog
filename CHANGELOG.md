@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.3.3](https://github.com/currents-dev/currents-playwright/compare/v2.3.2...v2.3.3) (2026-06-24)
+
+### Bug Fixes
+
+- prevent silent discovery-list truncation in pwc-p discover [ENG-777] ([#902](https://github.com/currents-dev/currents-playwright/issues/902)) ([78fa6f3](https://github.com/currents-dev/currents-playwright/commit/78fa6f33c739c2b7342a519c21453b484353474d))
+
 ## [2.3.2](https://github.com/currents-dev/currents-playwright/compare/v2.3.1...v2.3.2) (2026-06-22)
 
 ### Bug Fixes
