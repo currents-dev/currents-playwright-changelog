@@ -1,5 +1,11 @@
 # Changelog
 
+# [2.4.0](https://github.com/currents-dev/currents-playwright/compare/v2.3.2...v2.4.0) (2026-07-10)
+
+### Bug Fixes
+
+- recover stuck orchestrated Playwright children at shutdown [ENG-780] ([#904](https://github.com/currents-dev/currents-playwright/issues/904)) ([be31e24](https://github.com/currents-dev/currents-playwright/commit/be31e2452a4ae807a745f643d39bb5417c4c78e5))
+
 ## [2.3.3](https://github.com/currents-dev/currents-playwright/compare/v2.3.2...v2.3.3) (2026-06-24)
 
 ### Bug Fixes
