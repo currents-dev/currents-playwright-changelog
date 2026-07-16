@@ -1,5 +1,11 @@
 # Changelog
 
+# [2.5.0](https://github.com/currents-dev/currents-playwright/compare/v2.4.0...v2.5.0) (2026-07-16)
+
+### Features
+
+- add configurable orchestration session create timeout [ENG-891] ([#920](https://github.com/currents-dev/currents-playwright/issues/920)) ([f03f9be](https://github.com/currents-dev/currents-playwright/commit/f03f9be5b0f6063672edeb235e2a55d013a1f33e))
+
 # [2.4.0](https://github.com/currents-dev/currents-playwright/compare/v2.3.2...v2.4.0) (2026-07-10)
 
 ### Bug Fixes
