@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.5.1](https://github.com/currents-dev/currents-playwright/compare/v2.5.0...v2.5.1) (2026-09-24)
+
+### Bug Fixes
+
+* bump brace-expansion from 5.0.8 to 5.0.9 ([#945](https://github.com/currents-dev/currents-playwright/issues/945)) ([e17381b](https://github.com/currents-dev/currents-playwright/commit/e17381b943be0bf8099040e9e5390d41e0ed93f3))
+* bump eslint-config-turbo from 2.10.5 to 2.10.7 ([#935](https://github.com/currents-dev/currents-playwright/issues/935)) ([4197dda](https://github.com/currents-dev/currents-playwright/commit/4197ddabe6485c14a10e64ed33d20ea32d144e37))
+* bump ip-address from 10.2.0 to 10.4.0 ([#943](https://github.com/currents-dev/currents-playwright/issues/943)) ([4678740](https://github.com/currents-dev/currents-playwright/commit/467874003bbad7a8383822d963239a98839a70d9))
+* bump nanoid from 3.3.12 to 3.3.18 in /examples ([#948](https://github.com/currents-dev/currents-playwright/issues/948)) ([ea5f3dd](https://github.com/currents-dev/currents-playwright/commit/ea5f3dde1050e31259e045f632f63209e8358f93))
+* bump postcss from 8.5.18 to 8.5.25 ([#946](https://github.com/currents-dev/currents-playwright/issues/946)) ([4995e1c](https://github.com/currents-dev/currents-playwright/commit/4995e1c731cb66a2ba9942b1a6fa8807cb524c14))
+* bump undici from 6.27.0 to 6.28.0 ([#944](https://github.com/currents-dev/currents-playwright/issues/944)) ([51e8c37](https://github.com/currents-dev/currents-playwright/commit/51e8c3738594ba5844da26443160da511ae88dc8))
+* bump ws from 8.21.0 to 8.21.3 ([#951](https://github.com/currents-dev/currents-playwright/issues/951)) ([1524587](https://github.com/currents-dev/currents-playwright/commit/1524587dce8a43ce259d16823ac1f3067a26d965))
+* **e2e:** stabilize or8n pending-child force-exit assertions ([#933](https://github.com/currents-dev/currents-playwright/issues/933)) ([54a7512](https://github.com/currents-dev/currents-playwright/commit/54a7512daa7ef66b4b9b4b91bd38b86f74214692))
+* record the pull request's commit when CI checks out a merge commit ([7d1485b](https://github.com/currents-dev/currents-playwright/commit/7d1485b608a613b4bfc2fd1b8255b4cd45785387))
+
 ## [2.5.1-beta.0](https://github.com/currents-dev/currents-playwright/compare/v2.5.0...v2.5.1-beta.0) (2026-09-24)
 
 ### Bug Fixes
