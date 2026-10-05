@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.5.2-beta.0](https://github.com/currents-dev/currents-playwright/compare/v2.5.1...v2.5.2-beta.0) (2026-10-05)
+
+### Bug Fixes
+
+* bump ip-address from 10.5.0 to 10.7.2 ([a516f69](https://github.com/currents-dev/currents-playwright/commit/a516f69f3ad7bf6e7478711fcf2cc3aecf2f683a))
+* bump undici from 6.28.0 to 6.28.1 ([4251a3c](https://github.com/currents-dev/currents-playwright/commit/4251a3cbf092072c63b77120b14504582b5165e2))
+* take the commit and its CI fallback from commit-info 2.0 [ENG-1687] ([#979](https://github.com/currents-dev/currents-playwright/issues/979)) ([6651095](https://github.com/currents-dev/currents-playwright/commit/6651095c10881f8200ed5bcec655f9ff2701f4e4))
+
 ## [2.5.1](https://github.com/currents-dev/currents-playwright/compare/v2.5.0...v2.5.1) (2026-09-24)
 
 ### Bug Fixes
