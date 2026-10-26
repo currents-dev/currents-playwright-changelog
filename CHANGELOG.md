@@ -1,5 +1,33 @@
 # Changelog
 
+# [2.6.0](https://github.com/currents-dev/currents-playwright/compare/v2.5.2...v2.6.0) (2026-10-26)
+
+### Bug Fixes
+
+- bump eslint-config-turbo from 2.10.7 to 2.11.8 ([#999](https://github.com/currents-dev/currents-playwright/issues/999)) ([b7c320a](https://github.com/currents-dev/currents-playwright/commit/b7c320aa719fceac2865f559ebe20cc9ceea08c3))
+- bump ts-pattern from 5.9.0 to 5.9.2 ([#1000](https://github.com/currents-dev/currents-playwright/issues/1000)) ([4ec43ea](https://github.com/currents-dev/currents-playwright/commit/4ec43ea2bdced62cdfaf2f2841492e25210b38be))
+- bump undici from 6.28.1 to 6.29.1 ([#1025](https://github.com/currents-dev/currents-playwright/issues/1025)) ([a7cc95f](https://github.com/currents-dev/currents-playwright/commit/a7cc95f0e07bb736d155523de202fce8c25b1efc))
+- compare every built file with the installed reporter in measure-real ([3d73c1c](https://github.com/currents-dev/currents-playwright/commit/3d73c1c8515f26f8777996103d88f07ce0bdf16b))
+- **examples:** take follow-redirects 1.16.1 for the credential-leak advisories ([b22a242](https://github.com/currents-dev/currents-playwright/commit/b22a242ea87cdd05af8eac4020ee6a6ed138c126))
+- gzip every test-record request body ([f1b4c36](https://github.com/currents-dev/currents-playwright/commit/f1b4c3668b37e45f1912d5ed5f6894a2775f5fbd))
+- harden the reporter output preview ([8a7cfaa](https://github.com/currents-dev/currents-playwright/commit/8a7cfaa7328f493dadee5a1d76c4b6a765018109))
+- label an earlier attempt's error in compact output ([3bc2e8f](https://github.com/currents-dev/currents-playwright/commit/3bc2e8fe67547942b4621f3a301e6d5269294d20))
+- make the nextjs example type check and build ([#995](https://github.com/currents-dev/currents-playwright/issues/995)) ([260078d](https://github.com/currents-dev/currents-playwright/commit/260078df854610ff12eb3177f85993055f660bb6))
+- measure only the checked-out reporter build in measure-real ([8401591](https://github.com/currents-dev/currents-playwright/commit/8401591c0af50e5c0569951a824adf7871f48806))
+- print a test's line only from its last attempt ([f477462](https://github.com/currents-dev/currents-playwright/commit/f477462402398a330f571c926faac7a623664b0e))
+- remove the worker fixtures tmp dir when the run ends ([#989](https://github.com/currents-dev/currents-playwright/issues/989)) ([493bd32](https://github.com/currents-dev/currents-playwright/commit/493bd32b86d40dbce7272d9d0d167d01971f4b34))
+- run the pwc scanner again when a directory vanishes during test file collection [ENG-1754] ([#996](https://github.com/currents-dev/currents-playwright/issues/996)) ([2d40692](https://github.com/currents-dev/currents-playwright/commit/2d406928b2807d2bcf9bca9d1811fef221957192))
+- show interrupted tests as interrupted ([74dd52c](https://github.com/currents-dev/currents-playwright/commit/74dd52c38debc486a339cfed2db151f7c98aab63))
+- show the last attempt with failure details in compact output ([7e70326](https://github.com/currents-dev/currents-playwright/commit/7e703263058fb41775c9380a2d9f21d6da1cb6d0))
+
+### Features
+
+- add the compact console output preset ([007bd42](https://github.com/currents-dev/currents-playwright/commit/007bd42d0f1a5c6f33d7e3458fe59466c9075dd5))
+- cache project rules per parent process to cut GET /rules traffic ([#988](https://github.com/currents-dev/currents-playwright/issues/988)) ([df3ff45](https://github.com/currents-dev/currents-playwright/commit/df3ff45d60e3d3f156b76dc0fce30ed6e922da37))
+- send one machine id per reporter process [ENG-1818] ([#1024](https://github.com/currents-dev/currents-playwright/issues/1024)) ([c4f8f81](https://github.com/currents-dev/currents-playwright/commit/c4f8f8198a14f80bfd02829eb168805c51d1d5c9))
+- send the shard this process ran with the run [ENG-1818] ([#1030](https://github.com/currents-dev/currents-playwright/issues/1030)) ([4643559](https://github.com/currents-dev/currents-playwright/commit/4643559ab6a57542a228387aed5c87f58a9343ad))
+- skip redundant POST /runs/v1 for orchestrated Playwright spawns [CSR-4229] ([#985](https://github.com/currents-dev/currents-playwright/issues/985)) ([39ed280](https://github.com/currents-dev/currents-playwright/commit/39ed280901ce3b40651020dafbb4555a117b64b8))
+
 ## [2.5.2](https://github.com/currents-dev/currents-playwright/compare/v2.5.1...v2.5.2) (2026-10-05)
 
 ### Bug Fixes
