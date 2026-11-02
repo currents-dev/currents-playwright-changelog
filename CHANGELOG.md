@@ -1,5 +1,27 @@
 # Changelog
 
+# [2.7.0](https://github.com/currents-dev/currents-playwright/compare/v2.6.0...v2.7.0) (2026-11-02)
+
+### Bug Fixes
+
+* bump follow-redirects to 1.16.2 in the nextjs and imported-tests examples [CSR-0] ([#1062](https://github.com/currents-dev/currents-playwright/issues/1062)) ([711eb36](https://github.com/currents-dev/currents-playwright/commit/711eb367a3ab508c3f5fb1d1aea8caf44bb08c4b)), closes [#1050](https://github.com/currents-dev/currents-playwright/issues/1050)
+* bump undici from 6.29.1 to 7.30.1 [ENG-0] ([#1052](https://github.com/currents-dev/currents-playwright/issues/1052)) ([6f0cb7b](https://github.com/currents-dev/currents-playwright/commit/6f0cb7bd7e12a0ef7130a8e8cd3bb7b3f82a68bf))
+* bump ws and @types/ws ([#1055](https://github.com/currents-dev/currents-playwright/issues/1055)) ([d9fd184](https://github.com/currents-dev/currents-playwright/commit/d9fd184037ee39ab189a648db8187b6b73baeb5c))
+* don't count tests a halted pwc-p task never ran as ran ([8e16376](https://github.com/currents-dev/currents-playwright/commit/8e163768bfec353d88faab11978100a5d57130b1))
+* exit 1 when pwc can't spawn playwright or a signal kills it [ENG-1919] ([f79d6c5](https://github.com/currents-dev/currents-playwright/commit/f79d6c5c814656c9f8b0335e7a48dc80e098ce06))
+* pin @currents/rules to 0.1.0 [ENG-1981] ([#1051](https://github.com/currents-dev/currents-playwright/issues/1051)) ([3cf060c](https://github.com/currents-dev/currents-playwright/commit/3cf060ce81a33b7fe24910bcf26af59302814fed))
+* print pwc's launch failure to stderr [ENG-1919] ([547f6a8](https://github.com/currents-dev/currents-playwright/commit/547f6a8f21c0413054c5ac5042b1eb36718288ea))
+* read a task's attachment files before reporting it finished [ENG-1923] ([#1040](https://github.com/currents-dev/currents-playwright/issues/1040)) ([86a8497](https://github.com/currents-dev/currents-playwright/commit/86a8497b026e2248f06cc1cd59b8dafd304cb62d))
+* read CURRENTS_CONTEXT_LINKS=false as off ([8960a33](https://github.com/currents-dev/currents-playwright/commit/8960a33df27b18d0e4b2318221a738434e535e9a))
+
+### Features
+
+* add a setting for the summary for agents and the REST API address ([10a1460](https://github.com/currents-dev/currents-playwright/commit/10a1460547bde846fa9c3ed2e37f43daaec0b158))
+* capture the test list in Reporter.preprocess by default on Playwright 1.62+, CURRENTS_SUITE_HOOK=false turns it off [ENG-1965] ([#1047](https://github.com/currents-dev/currents-playwright/issues/1047)) ([1434256](https://github.com/currents-dev/currents-playwright/commit/1434256e73acc773a9121c117575b0a59906dc6c))
+* print a summary for agents with a context link for each failed and flaky test ([0d61fba](https://github.com/currents-dev/currents-playwright/commit/0d61fba129abab17c130164a5ace41c06f3188e7))
+* print one summary for agents per pwc-p machine ([5f4dda3](https://github.com/currents-dev/currents-playwright/commit/5f4dda36b237d7ef495054dd39cca3c51caa794f))
+* request context links for a run's failed and flaky tests ([ff47080](https://github.com/currents-dev/currents-playwright/commit/ff47080519df58c0219ca89f5ab9197d79d67a2b))
+
 # [2.6.0](https://github.com/currents-dev/currents-playwright/compare/v2.5.2...v2.6.0) (2026-10-26)
 
 ### Bug Fixes
