@@ -1,17 +1,42 @@
 # Changelog
 
+# [2.9.0](https://github.com/currents-dev/currents-playwright/compare/v2.8.0...v2.9.0) (2026-11-16)
+
+### Features
+
+- read the test list from the Playwright run itself on Playwright 1.62+, with no extra `playwright test --list` process; the run is created once per process, before the first test starts, and `CURRENTS_SUITE_HOOK=false` turns it off [ENG-1966] ([#1106](https://github.com/currents-dev/currents-playwright/issues/1106)) ([c4f453b](https://github.com/currents-dev/currents-playwright/commit/c4f453bfc5f81d18492502bba171c26d24375651))
+- pwc-p run takes Playwright test filters (`--grep`, `--grep-invert`, `--project`, `--only-changed`, spec files and `file:line`), so a filtered orchestrated run no longer needs `pwc-p discover` first, and starts one Playwright process fewer [ENG-1894] ([#1096](https://github.com/currents-dev/currents-playwright/issues/1096)) ([86c6d9d](https://github.com/currents-dev/currents-playwright/commit/86c6d9d0b637c8acdd8557d2ef1169f5b5b5853f))
+- pwc-p run forwards Playwright's own arguments (`--retries`, `--trace`, `--repeat-each`, `--no-deps`, `--pass-with-no-tests` and the rest) to Playwright as given, and refuses the ones that can't apply to an orchestrated run with a message naming what to use instead [ENG-2201] ([#1101](https://github.com/currents-dev/currents-playwright/issues/1101)) ([908a8a0](https://github.com/currents-dev/currents-playwright/commit/908a8a046d55e83629aaf59160e11ca8f26a81a9))
+- pwc-p run exits 1 and creates no orchestration session when its filters match no test, or exits 0 with `--pass-with-no-tests` [ENG-1894] ([#1096](https://github.com/currents-dev/currents-playwright/issues/1096)) ([86c6d9d](https://github.com/currents-dev/currents-playwright/commit/86c6d9d0b637c8acdd8557d2ef1169f5b5b5853f))
+- pwc-p discover and pwc-p run read the test list and session suite from Reporter.preprocess on Playwright 1.62+ instead of parsing Playwright's `--list` output [ENG-1892] [ENG-1893] ([#1095](https://github.com/currents-dev/currents-playwright/issues/1095), [#1094](https://github.com/currents-dev/currents-playwright/issues/1094)) ([22501b1](https://github.com/currents-dev/currents-playwright/commit/22501b1d7d916cf8319dd8dbbf09f7fc17a907f8), [bbe4ac5](https://github.com/currents-dev/currents-playwright/commit/bbe4ac5b7da5aa95a5de3ded6e7c2d990fadca80))
+- print the key context under each failed test's error in compact output [ENG-2210] ([#1103](https://github.com/currents-dev/currents-playwright/issues/1103)) ([2034afd](https://github.com/currents-dev/currents-playwright/commit/2034afd03ef71b096c80f3039e22f15b509bd00d))
+- say in the CI log when a Currents action quarantines a test [ENG-1226] ([#1079](https://github.com/currents-dev/currents-playwright/issues/1079)) ([7c6462e](https://github.com/currents-dev/currents-playwright/commit/7c6462e9ffe82fb29a5a5e1bc7fcbb85c94439f2))
+- tell agents what to fix and point them to the Currents MCP in the summary for agents [ENG-1862] ([#1072](https://github.com/currents-dev/currents-playwright/issues/1072)) ([a8fce8a](https://github.com/currents-dev/currents-playwright/commit/a8fce8a7a5b042a7623d41820cd381884cf00785))
+- gzip the run-creation request body [ENG-1873] ([#1092](https://github.com/currents-dev/currents-playwright/issues/1092)) ([278e65e](https://github.com/currents-dev/currents-playwright/commit/278e65e4c8bbe71aaa473b520b0811289e6ab405))
+
+### Bug Fixes
+
+- include a spec file whose tests are all declared in an imported helper in pwc-p test lists, which used to leave it out of the run [ENG-2200] ([#1100](https://github.com/currents-dev/currents-playwright/issues/1100)) ([41a4b87](https://github.com/currents-dev/currents-playwright/commit/41a4b87a21bb73f85a81e405bde048b9c46d0c17))
+- claim the next task when a task's Playwright process exits before its reporter finishes [ENG-2099] ([#1066](https://github.com/currents-dev/currents-playwright/issues/1066)) ([4f7c4e9](https://github.com/currents-dev/currents-playwright/commit/4f7c4e9432716c1ab07c0515f0b1b03d274286a6))
+- wait for test record updates queued while the reporter finishes [ENG-2203] ([#1099](https://github.com/currents-dev/currents-playwright/issues/1099)) ([98f951a](https://github.com/currents-dev/currents-playwright/commit/98f951aa5ae7e2f5453fc8fa94b052762a8fa13b))
+- start Playwright under the same runtime as pwc and pwc-p [ENG-2123] ([#1074](https://github.com/currents-dev/currents-playwright/issues/1074)) ([51bf47b](https://github.com/currents-dev/currents-playwright/commit/51bf47b792a0ed6167b0fdbd6a63825064df5c3e))
+- keep the record key for the pwc-p discover debug log upload [ENG-2102] ([#1082](https://github.com/currents-dev/currents-playwright/issues/1082)) ([8ad004d](https://github.com/currents-dev/currents-playwright/commit/8ad004de8441e1238de61b5a31d9a2f0de50176d))
+- bump safe-regex2 from 5.1.1 to 5.1.2 ([#1088](https://github.com/currents-dev/currents-playwright/issues/1088)) ([faf38d8](https://github.com/currents-dev/currents-playwright/commit/faf38d8e28d3370180e5998fe4c34b5871c61b56))
+- bump undici from 7.30.1 to 7.30.2 ([#1084](https://github.com/currents-dev/currents-playwright/issues/1084)) ([d73557e](https://github.com/currents-dev/currents-playwright/commit/d73557e5d5083f0e56d604b2a3e36576f7b30f01))
+- bump ws from 8.22.0 to 8.22.1 ([#1087](https://github.com/currents-dev/currents-playwright/issues/1087)) ([ba814a0](https://github.com/currents-dev/currents-playwright/commit/ba814a00b632cc3b18e42263d1b6e32e34b29f58))
+
 # [2.8.0](https://github.com/currents-dev/currents-playwright/compare/v2.7.0...v2.8.0) (2026-11-16)
 
 ### Bug Fixes
 
-* do not send the record key from reporter options to Currents ([#1108](https://github.com/currents-dev/currents-playwright/issues/1108)) ([192e3e8](https://github.com/currents-dev/currents-playwright/commit/192e3e8e6a8b8f001fb03b7438c71572114a8a25))
-* print the local log path instead of null when the debug log upload is refused [ENG-2103] ([#1081](https://github.com/currents-dev/currents-playwright/issues/1081)) ([c27edc6](https://github.com/currents-dev/currents-playwright/commit/c27edc63b0fcc6858a41bab55ca2ba1d3c87e5c8))
-* revoke the OIDC record key when the run is cancelled [ENG-2225] ([#1109](https://github.com/currents-dev/currents-playwright/issues/1109)) ([288701b](https://github.com/currents-dev/currents-playwright/commit/288701be938526ce10cde7673cc1e2ea5f538d45))
-* send the record key with the pwc debug log upload [ENG-2101] ([#1083](https://github.com/currents-dev/currents-playwright/issues/1083)) ([f62969b](https://github.com/currents-dev/currents-playwright/commit/f62969b40d38916dd988406e6199d175f416f032))
+- do not send the record key from reporter options to Currents ([#1108](https://github.com/currents-dev/currents-playwright/issues/1108)) ([192e3e8](https://github.com/currents-dev/currents-playwright/commit/192e3e8e6a8b8f001fb03b7438c71572114a8a25))
+- print the local log path instead of null when the debug log upload is refused [ENG-2103] ([#1081](https://github.com/currents-dev/currents-playwright/issues/1081)) ([c27edc6](https://github.com/currents-dev/currents-playwright/commit/c27edc63b0fcc6858a41bab55ca2ba1d3c87e5c8))
+- revoke the OIDC record key when the run is cancelled [ENG-2225] ([#1109](https://github.com/currents-dev/currents-playwright/issues/1109)) ([288701b](https://github.com/currents-dev/currents-playwright/commit/288701be938526ce10cde7673cc1e2ea5f538d45))
+- send the record key with the pwc debug log upload [ENG-2101] ([#1083](https://github.com/currents-dev/currents-playwright/issues/1083)) ([f62969b](https://github.com/currents-dev/currents-playwright/commit/f62969b40d38916dd988406e6199d175f416f032))
 
 ### Features
 
-* get the record key from a CI OIDC token when none is configured [ENG-2225] ([#1107](https://github.com/currents-dev/currents-playwright/issues/1107)) ([a321242](https://github.com/currents-dev/currents-playwright/commit/a321242aa22b4c38c1b6ad62551234fabc510de9))
+- get the record key from a CI OIDC token when none is configured [ENG-2225] ([#1107](https://github.com/currents-dev/currents-playwright/issues/1107)) ([a321242](https://github.com/currents-dev/currents-playwright/commit/a321242aa22b4c38c1b6ad62551234fabc510de9))
 
 # [2.7.0](https://github.com/currents-dev/currents-playwright/compare/v2.6.0...v2.7.0) (2026-11-02)
 
