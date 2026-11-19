@@ -1,5 +1,21 @@
 # Changelog
 
+# [2.10.0](https://github.com/currents-dev/currents-playwright/compare/v2.9.0...v2.10.0) (2026-11-19)
+
+### Features
+
+- compact console output, with the summary for agents, is now the default; set `consoleOutput: "detailed"` (or `CURRENTS_CONSOLE_OUTPUT=detailed` / `--pwc-console-output detailed`) for the full per-test output [ENG-2282] ([#1129](https://github.com/currents-dev/currents-playwright/issues/1129)) ([7afaf50](https://github.com/currents-dev/currents-playwright/commit/7afaf500afa6a0d448a49860b1660dea0143025a))
+- add a `removeTag` option (`--remove-tag`, `CURRENTS_REMOVE_TAG`) that leaves the listed tags out of the run, project and test tags sent to Currents [ENG-141] ([#1118](https://github.com/currents-dev/currents-playwright/issues/1118)) ([423f37e](https://github.com/currents-dev/currents-playwright/commit/423f37e68337dce13ab17ec20d1f6c9b512635ca))
+- balanced sharding (opt-in, Playwright 1.62+): with `balancedSharding: true` in the Currents config, `--pwc-balanced-sharding` or `CURRENTS_BALANCED_SHARDING=true`, a sharded run asks Currents for spec durations and splits the tests across shards by duration instead of Playwright's split [ENG-1898] [ENG-2288] ([#1119](https://github.com/currents-dev/currents-playwright/issues/1119), [#1123](https://github.com/currents-dev/currents-playwright/issues/1123), [#1127](https://github.com/currents-dev/currents-playwright/issues/1127)) ([d734f01](https://github.com/currents-dev/currents-playwright/commit/d734f019afa8f7fdb889daf4ec3683e90fc16419), [81efa42](https://github.com/currents-dev/currents-playwright/commit/81efa4219542028ced72d59b03e5588e04d30f94), [11b7119](https://github.com/currents-dev/currents-playwright/commit/11b7119777666f8a04c3d8d8ddf37d5bfd51d893))
+- print one message when a balanced shard stops or is planned no tests, with the run URL and how to turn balancing off [ENG-1898] ([#1124](https://github.com/currents-dev/currents-playwright/issues/1124)) ([ad7c23a](https://github.com/currents-dev/currents-playwright/commit/ad7c23aedcb49192b0ca18cef092d32398eeb968))
+- print a line while a balanced shard retries its durations request, so a slow answer doesn't read as a hang [ENG-2285] ([#1131](https://github.com/currents-dev/currents-playwright/issues/1131)) ([17f69bc](https://github.com/currents-dev/currents-playwright/commit/17f69bcb92837337be44eb8b62c4ab4236dab9c0))
+- warn when an opted-in sharded build runs Playwright below 1.62, where balanced sharding can't run [ENG-2286] ([#1132](https://github.com/currents-dev/currents-playwright/issues/1132)) ([8d22c7c](https://github.com/currents-dev/currents-playwright/commit/8d22c7c83fcf928ca650d8bf915b9ecad536261b))
+- send each test's shard group with the run's suite [ENG-1901] ([#1133](https://github.com/currents-dev/currents-playwright/issues/1133)) ([1da754f](https://github.com/currents-dev/currents-playwright/commit/1da754ffb9ba17ec2164d34fb66f04d4fef3fabb))
+
+### Bug Fixes
+
+- word the balanced shard line as the plan (`shard 1/4: 25 tests planned, about 29s`), and say when `--last-failed` re-runs only the failed tests among them [ENG-2287] ([#1130](https://github.com/currents-dev/currents-playwright/issues/1130)) ([449de6b](https://github.com/currents-dev/currents-playwright/commit/449de6b482dae6e12c9d0fc47cf4453795d0e35b))
+
 # [2.9.0](https://github.com/currents-dev/currents-playwright/compare/v2.8.0...v2.9.0) (2026-11-16)
 
 ### Features
