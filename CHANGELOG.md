@@ -1,5 +1,16 @@
 # Changelog
 
+# [2.11.0](https://github.com/currents-dev/currents-playwright/compare/v2.10.0...v2.11.0) (2026-11-19)
+
+### Features
+
+- get the record key from a CI OIDC token through a trust policy: set `CURRENTS_OIDC_POLICY_ID` (or the `oidcPolicyId` option) to the policy ID shown in the Currents dashboard. OIDC recording needs the policy ID: without it, and without a record key, the run stops before it requests a token. `CURRENTS_PROJECT_ID` still selects the project. A 429 from the exchange or the CI provider is retried up to 3 times, waiting for `Retry-After` up to 60 seconds [ENG-2332] ([#1135](https://github.com/currents-dev/currents-playwright/issues/1135)) ([fa69789](https://github.com/currents-dev/currents-playwright/commit/fa6978977c7cd1778883a7bbb256234a8b91cdd5))
+
+### Bug Fixes
+
+- show `***` instead of the CI OIDC token or the record key when a server error repeats them in the log [ENG-2333] ([#1137](https://github.com/currents-dev/currents-playwright/issues/1137)) ([2cae3e3](https://github.com/currents-dev/currents-playwright/commit/2cae3e3fb6994ba36e6df06c9805def57fa405b1))
+- stop balanced reruns when the original plan is unknown ([#1134](https://github.com/currents-dev/currents-playwright/issues/1134)) ([2a84c66](https://github.com/currents-dev/currents-playwright/commit/2a84c66a4c2b4cbab44ddd7611fe9686d570d825))
+
 # [2.10.0](https://github.com/currents-dev/currents-playwright/compare/v2.9.0...v2.10.0) (2026-11-19)
 
 ### Features
