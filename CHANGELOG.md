@@ -4,7 +4,7 @@
 
 ### Features
 
-- the reporter, `pwc` and `pwc-p` no longer get a record key from a CI OIDC token, and no longer read `oidcToken`, `oidcAudience`, `oidcPolicyId`, `CURRENTS_OIDC_TOKEN`, `CURRENTS_OIDC_AUDIENCE` or `CURRENTS_OIDC_POLICY_ID`. A run uses a record key from `recordKey`, `CURRENTS_RECORD_KEY` or `--key`. To record with OIDC, get the key in a CI step before the tests with `npx @currents/cmd ci auth get-record-key` and pass it as `CURRENTS_RECORD_KEY`, for example on GitHub Actions: `echo "CURRENTS_RECORD_KEY=$(npx @currents/cmd ci auth get-record-key --oidc-provider github-actions)" >> "$GITHUB_ENV"` with `CURRENTS_OIDC_POLICY_ID` set and `permissions: id-token: write` [ENG-2332] ([#1139](https://github.com/currents-dev/currents-playwright/issues/1139)) ([6ce01c2](https://github.com/currents-dev/currents-playwright/commit/6ce01c22953cc938c94101a5de91a87945f4bcbe))
+- the reporter, `pwc` and `pwc-p` no longer exchange OIDC tokens. To record with OIDC, get the record key with `npx @currents/cmd ci auth get-record-key` in a CI step before the tests and pass it as `CURRENTS_RECORD_KEY`, for example on GitHub Actions: `echo "CURRENTS_RECORD_KEY=$(npx @currents/cmd ci auth get-record-key --oidc-provider github-actions)" >> "$GITHUB_ENV"` with `CURRENTS_OIDC_POLICY_ID` set and `permissions: id-token: write` [ENG-2332] ([#1139](https://github.com/currents-dev/currents-playwright/issues/1139)) ([6ce01c2](https://github.com/currents-dev/currents-playwright/commit/6ce01c22953cc938c94101a5de91a87945f4bcbe))
 
 # [2.11.0](https://github.com/currents-dev/currents-playwright/compare/v2.10.0...v2.11.0) (2026-11-19)
 
