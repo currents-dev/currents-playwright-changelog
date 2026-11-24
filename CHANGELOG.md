@@ -1,5 +1,17 @@
 # Changelog
 
+# [2.13.0](https://github.com/currents-dev/currents-playwright/compare/v2.12.0...v2.13.0) (2026-11-24)
+
+### Features
+
+- `pwc-p`: with `CURRENTS_OR8N_DEPS_ONCE=true` (Playwright 1.62+, suite hook on), dependency and teardown projects are left out of the orchestration session, and setup and teardown still run with each batch that depends on them. Every machine of a build must use the same value, or each creates its own session [ENG-2297] ([#1148](https://github.com/currents-dev/currents-playwright/issues/1148)) ([83934b7](https://github.com/currents-dev/currents-playwright/commit/83934b7df1e837767c1e244974f0e5882cc4de6c))
+- send `CI_JOB_RETRY_COUNT`, `CI_NODE_INDEX` and `CI_NODE_TOTAL` from GitLab jobs, so Currents can tell a retried job from a first run (GitLab 19.3+) [ENG-2353] ([#1147](https://github.com/currents-dev/currents-playwright/issues/1147)) ([4f79c29](https://github.com/currents-dev/currents-playwright/commit/4f79c293cc8ed1cc2d4d51d999c171cd7fec095e))
+
+### Bug Fixes
+
+- stop the run as soon as a test result says it was cancelled, instead of finishing the current (or last) spec file [ENG-2246] ([93dd658](https://github.com/currents-dev/currents-playwright/commit/93dd658c6d24cdd817a1f7102cb6f4a48db6c6ce))
+- bump ws from 8.22.1 to 8.23.0 ([#1143](https://github.com/currents-dev/currents-playwright/issues/1143)) ([73bf4e3](https://github.com/currents-dev/currents-playwright/commit/73bf4e3e3b0eb2c10b150af645cb91d2c02e3cf6))
+
 # [2.12.0](https://github.com/currents-dev/currents-playwright/compare/v2.11.0...v2.12.0) (2026-11-20)
 
 ### Features
